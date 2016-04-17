@@ -1,0 +1,185 @@
+/*GENERAL STYLES */
+
+ 	 .navbar {
+    display: none;}
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+.container-fluid {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.row {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+ 	body{
+   		font-family:San-Serif , Comic Sans MS;
+    font-size: 100%;
+        background-color:#313153;
+}
+
+  /* h1:hover{
+  background:#A30052;
+ /* -moz-transform:rotate(360deg);
+  -webkit-transform:rotate(360deg);
+  transform:rotate(360deg) scale(2);
+    transition:all .7s;*/
+}
+#header img, #header h1{
+  float:left;
+}
+h2:hover{
+  text-shadow: 0 0 200px #ffffff,0 0 80px #FFFF00,0 0 8px #8F0000;
+  color:#00ffff;
+  transform:scale(1.2);
+}
+
+h2{
+	font-size: 70px;
+	padding-bottom: 5px;
+  color: #27AE2D;
+  margin: auto;
+  width: 30%; 
+
+
+  text-shadow:gray -15px -20px 2px;
+}
+ .container1{
+    margin:0 auto;
+    width:200px;
+    float: left;
+
+ }
+ .container2{
+    margin:0 auto;
+    width:300px;
+    left: 270px;
+    float: right;
+ }
+  .container3.container4{
+     margin:50 100 50 50;
+     width:300px;
+      text-align: center;
+ }
+ 
+ 
+ ul {
+   font-style: italic;
+ 	margin: 0;
+ 	padding: 0;
+
+ }
+ ul li {
+ 	list-style-type: none;
+ 	font-size:25px;
+ 	  
+ }
+ a {
+ 	text-decoration: none;
+ }
+
+
+ /* HEADER */
+ #header {
+ 
+  	width: 100%;
+  	height: 264px;
+  	padding: 64px 0;
+    background-image: url(/home/vasyl/myFirstPage/1418273570-13872874925-20-shchebin.jpg);
+    background-size: 100%;
+}
+ #header h1{
+ 	color:yellow;
+ 	text-align: center;
+ }
+/*NAVYGATION*/
+.page-navigation{
+list-style: none;
+background-color:Silver;
+min-height: 30px;
+text-align: center;
+ }
+
+ .page-navigation li {
+  background-color: DarkGray;
+  display: inline-block;
+  margin-right: 20px;
+   }
+.page-navigation a {
+color: #b22222;
+text-decoration: none;
+background: DarkGray;
+border-bottom: 1px solid #114477;
+border-radius: 5px;
+padding: 0px 14px 0px 14px;
+transition: color 1s, width 2s, 
+background-color 1s;
+}
+ .page-navigation li a:hover  {
+  border-left: 1px solid #114477;
+   border-right: 1px solid #114477;
+   color: #7b68ee;
+    background-color: #d3d3d3;
+ }
+ 
+
+
+ }
+ .page-navigation a {
+ 	display:block; 
+ 	color:lightsteelblue;
+ 	line-height: 36px;
+ 	font-weight: bold;
+ 	text-align: center;
+ }
+ 
+  
+   p{
+    font-size:22px;
+    text-indent: 50px;
+  }
+  #main{
+  float:left;
+  margin:0px 0 50px 0;
+  width:100%;
+}
+#porfolio-content{
+  margin:30px 0 0 0;
+}
+.portfolio-item{
+  float:left;
+  margin:0 0 57px 57px;
+}
+.first{
+  margin-left:0;
+}
+.portfolio-item img{
+  border:2px #ddd solid;
+}
+  .page-headline{
+  font-size:36px;
+  margin:5px 0 0 0;
+}
+
+.portfolio-item img{
+  border:2px red solid;
+}
+
+.pag{
+  font-size: 32px;
+color:#00bfff;
+position:relative;
+left: 360px;
+top: 0px;
+}
+.par p{
+text-align: center;
+}
+.par1 p{
+text-align: center;
+}
