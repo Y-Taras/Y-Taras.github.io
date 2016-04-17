@@ -87,8 +87,8 @@ a {
 /* HEADER */
 #header {
     width: 100%;
-    height: 264px;
-    padding: 64px 0;
+    height: 100%;
+    padding: 20px 0;
     background-image: url(./img/shchebin.jpg);
     background-size: 100%;
 }
@@ -103,6 +103,7 @@ a {
     background-color: Silver;
     min-height: 30px;
     text-align: center;
+    clear: both;
 }
 .page-navigation li {
     background-color: DarkGray;
@@ -142,13 +143,7 @@ p {
     margin:0px 0 50px 0;
     width:100%;
 }
-#porfolio-content {
-    margin:30px 0 0 0;
-}
-.portfolio-item {
-    float:left;
-    margin:0 0 57px 57px;
-}
+
 .first {
     margin-left:0;
 }
