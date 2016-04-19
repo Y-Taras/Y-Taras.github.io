@@ -17,7 +17,7 @@
     <div id="wrap">
         <div id="header">
             <img src="img/logo.png">
-            <h2>ПАРКАН</h2>
+            <h2><span id="headerLogo">ПАРКАН</span></h2>
             <div class="container1">
                 <h1>Вироби на паркан</h1>
                 <h1>Парапети</h1>
@@ -50,59 +50,59 @@
         <div class="container">
             <div class="row">
                 <div class="col-xs-6 col-sm-4">
-                    <a href="./img/01XL.jpg" class=""><img src="./img/thumbnail/01.jpg" class="thumbnail img-responsive" style="width:100%" alt="Image"></a>
+                    <img src="./img/thumbnail/01.jpg" data-bsp-large-src="./img/01XL.jpg" class="thumbnail img-responsive" style="width:100%" alt="Image1">
                 </div>
                 <div class="col-xs-6 col-sm-4">
-                    <a href="./img/02XL.jpg" class=""><img src="./img/thumbnail/02.jpg" class="thumbnail img-responsive" style="width:100%" alt="Image"></a>
+                    <img src="./img/thumbnail/02.jpg" data-bsp-large-src="./img/02XL.jpg" class="thumbnail img-responsive" style="width:100%" alt="Image2">
                 </div>
                 <div class="col-xs-6 col-sm-4">
-                    <a href="./img/03XL.jpg" class=""><img src="./img/thumbnail/03.jpg" class="thumbnail img-responsive" style="width:100%" alt="Image"></a>
-                </div>
-            </div>
-            <br>
-            <br>
-            <div class="row">
-                <div class="col-xs-6 col-sm-4">
-                    <a href="./img/04XL.jpg" class=""><img src="./img/thumbnail/04.jpg" class="thumbnail img-responsive" style="width:100%" alt="Image"></a>
-                </div>
-                <div class="col-xs-6 col-sm-4">
-                    <a href="./img/05XL.jpg" class=""><img src="./img/thumbnail/05.jpg" class="thumbnail img-responsive" style="width:100%" alt="Image"></a>
-                </div>
-                <div class="col-xs-6 col-sm-4">
-                    <a href="./img/06XL.jpg" class=""><img src="./img/thumbnail/06.jpg" class="thumbnail img-responsive" style="width:100%" alt="Image"></a>
+                    <img src="./img/thumbnail/03.jpg" data-bsp-large-src="./img/03XL.jpg" class="thumbnail img-responsive" style="width:100%" alt="Image3">
                 </div>
             </div>
             <br>
             <br>
             <div class="row">
                 <div class="col-xs-6 col-sm-4">
-                    <a href="./img/07XL.jpg" class=""><img src="./img/thumbnail/07.jpg" class="thumbnail img-responsive" style="width:100%" alt="Image"></a>
+                    <img src="./img/thumbnail/04.jpg" data-bsp-large-src="./img/04XL.jpg" class="thumbnail img-responsive" style="width:100%" alt="Image4">
                 </div>
                 <div class="col-xs-6 col-sm-4">
-                    <a href="./img/08XL.jpg" class=""><img src="./img/thumbnail/08.jpg" class="thumbnail img-responsive" style="width:100%" alt="Image"></a>
+                    <img src="./img/thumbnail/05.jpg" data-bsp-large-src="./img/05XL.jpg" class="thumbnail img-responsive" style="width:100%" alt="Image5">
                 </div>
                 <div class="col-xs-6 col-sm-4">
-                    <a href="./img/09XL.jpg" class=""><img src="./img/thumbnail/09.jpg" class="thumbnail img-responsive" style="width:100%" alt="Image"></a>
+                    <img src="./img/thumbnail/06.jpg" data-bsp-large-src="./img/06XL.jpg" class="thumbnail img-responsive" style="width:100%" alt="Image6">
                 </div>
             </div>
             <br>
             <br>
             <div class="row">
                 <div class="col-xs-6 col-sm-4">
-                    <a href="./img/10XL.jpg" class=""><img src="./img/thumbnail/10.jpg" class="img-responsive" style="width:100%" alt="Image"></a>
+                    <img src="./img/thumbnail/07.jpg" data-bsp-large-src="./img/07XL.jpg" class="thumbnail img-responsive" style="width:100%" alt="Image7">
                 </div>
                 <div class="col-xs-6 col-sm-4">
-                    <a href="./img/11XL.jpg" class=""><img src="./img/thumbnail/11.jpg" class="img-responsive" style="width:100%" alt="Image"></a>
+                    <img src="./img/thumbnail/08.jpg" data-bsp-large-src="./img/08XL.jpg" class="thumbnail img-responsive" style="width:100%" alt="Image8">
                 </div>
                 <div class="col-xs-6 col-sm-4">
-                    <a href="./img/12XL.jpg" class=""><img src="./img/thumbnail/12.jpg" class="img-responsive" style="width:100%" alt="Image"></a>
+                    <img src="./img/thumbnail/09.jpg" data-bsp-large-src="./img/09XL.jpg" class="thumbnail img-responsive" style="width:100%" alt="Image9">
+                </div>
+            </div>
+            <br>
+            <br>
+            <div class="row">
+                <div class="col-xs-6 col-sm-4">
+                    <img src="./img/thumbnail/10.jpg" data-bsp-large-src="./img/10XL.jpg" class="thumbnail img-responsive" style="width:100%" alt="Image10">
+                </div>
+                <div class="col-xs-6 col-sm-4">
+                    <img src="./img/thumbnail/11.jpg" data-bsp-large-src="./img/11XL.jpg" class="thumbnail img-responsive" style="width:100%" alt="Image11">
+                </div>
+                <div class="col-xs-6 col-sm-4">
+                    <img src="./img/thumbnail/12.jpg" data-bsp-large-src="./img/12XL.jpg" class="thumbnail img-responsive" style="width:100%" alt="Image12">
                 </div>
             </div>
         </div>
         <br>
         <br>
         <!-- Modal -->
-        <div class="modal fade" id="basicModal" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
+        <div class="modal fade" id="basicModal" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true" >
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="modal-header">
@@ -124,7 +124,12 @@
     $(document).ready(function() {
         $('.thumbnail').click(function() {
             $('.modal-body').empty();
-            $($(this).parents('div').html()).appendTo('.modal-body');
+            var largeImg = $(this).attr('data-bsp-large-src');
+            console.log('largeImg ', largeImg);
+            var thisDiv = $(this).parents('div').html();
+            console.log('thisDiv ' , thisDiv);
+            $(thisDiv).appendTo('.modal-body');
+            $('.modal-body img').attr('src', largeImg);
             $('#basicModal').modal({
                 show: true
             });
