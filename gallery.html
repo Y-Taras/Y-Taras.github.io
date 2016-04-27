@@ -2,13 +2,14 @@
 <html lang="uk">
 
 <head>
-    <title>My First Page|Фото</title>
+    <title>Фотогалерея: Парапети, дашки для паркана та цеголка на стовпчики</title>
     <meta charset="utf-8">
     <meta http-equiv="Page-Enter" Content="RevealTrans(Duration=12.0, Transition=0)">
     <meta http-equiv="Page- Exit" Content="RevealTrans(Duration=3.0, Transition=23)">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Виготовлення і встановлення парапетів та дашків на паркан">
+    <meta name="description" content="Виготовлення, встановлення парапетів, дашків на паркан та тротуарної плитки в Івано - Франківській області">
+    <link rel="alternate" href="http://parkan.trade/" hreflang="uk-ua" />
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="mystyle.css">
 </head>
@@ -102,7 +103,7 @@
         <br>
         <br>
         <!-- Modal -->
-        <div class="modal fade" id="basicModal" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true" >
+        <div class="modal fade" id="basicModal" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="modal-header">
@@ -118,6 +119,11 @@
             </div>
         </div>
     </main>
+    <footer>
+        <p style="font-size: 11px; position: relative; bottom: 20px; left: 30%;">
+            <span>This site is developed and maintained by Vasyl Yaremkiv</span>
+        </p>
+    </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
     <script type="text/javascript">
@@ -127,7 +133,7 @@
             var largeImg = $(this).attr('data-bsp-large-src');
             console.log('largeImg ', largeImg);
             var thisDiv = $(this).parents('div').html();
-            console.log('thisDiv ' , thisDiv);
+            console.log('thisDiv ', thisDiv);
             $(thisDiv).appendTo('.modal-body');
             $('.modal-body img').attr('src', largeImg);
             $('#basicModal').modal({
