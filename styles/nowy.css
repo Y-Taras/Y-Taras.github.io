@@ -348,28 +348,15 @@
       height: 30px;
       width: 1000px;
   }
-  
   #content1 {
       display:block;
       margin-bottom: 3em;
   }
-  
-  /*#footer {
-      position:relative;
-      display: block;
-      bottom: 5px;
-      height: 3em;
-      background-color: #696969;
-      width: 1000px;
-      border: 3px solid #6E6E6E;
-      box-shadow: 0 0 0 6px #c0c0c0, 0 0 4px 6px;
-      border-radius: 8px;
-  }*/
   .footer{
-    background-color: #696969;
-    color: white;
-    max-height: 30px;
-    border: 3px solid #6E6E6E;
+      background-color: #696969;
+      color: white;
+      max-height: 30px;
+      border: 3px solid #6E6E6E;
       box-shadow: 0 0 0 6px #c0c0c0, 0 0 4px 6px;
       border-radius: 8px;
       padding:1px 0;
@@ -377,3 +364,21 @@
       width: 994px;
 
   }
+.glyphicon {
+  position: relative;
+  top: 1px;
+  left: -50px;
+  display: inline;
+  margin-left:20px;
+  padding-left: 20px;
+  font-family: 'Glyphicons Halflings';
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+#img-n,
+#img-nn{
+ margin:20px 0px 20px 45px;
+}
