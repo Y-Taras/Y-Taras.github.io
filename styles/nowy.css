@@ -15,7 +15,12 @@
   
   .header-bg {
       height: 264px;
-      background-image: url('../images/karpaty-3.jpg');
+      background-image: url('../images/Stone_01_Tall.jpg');
+      background-size: 100%;
+  }
+   .header-bg-1 {
+      height: 264px;
+      background-image: url('../images/vogel.jpg');
       background-size: 100%;
   }
   
@@ -69,15 +74,24 @@
       left: 500px;
       top: 150px;
       font-size: 64px;
-      font-family: San-Serif, "Comic Sans MS", Arial;
+      font-family:"Comic Sans MS",Arial,inherit;
       color: Gold;
   }
   
   .block3 {
       position: absolute;
-      left: 450px;
-      top: 20px;
+      left: 400px;
+      top: 80px;
       font-size: 64px;
+      font-family: "Bickham Script Two", Arial;
+      color: rgba(255, 255, 255, 0.9);
+      text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  }
+   .block3-1{
+      position: absolute;
+      left: 750px;
+      top: 20px;
+      font-size:18px;
       font-family: "Bickham Script Two", Arial;
       color: yellow;
   }
@@ -152,9 +166,13 @@
   
   p {
       font-size: 22px;
-      text-indent: 50px;
+      text-indent: 30px;
       text-align: center;
   }
+   p b { 
+    font-family: Times, serif;
+    color: navy; 
+   }
   
   #plyt,
   #plyt-1 {
