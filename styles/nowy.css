@@ -1,4 +1,6 @@
-  @font-face {
+ 
+@import "reset.css";
+@font-face {
       font-family: "Bickham Script Two";
       src: url("../fonts/BickhamScriptTwo.ttf") format("truetype");
   }
@@ -6,11 +8,11 @@
   html {
       font-size: 100%;
   }
-  
+    
   .header {
       margin: 0 auto;
       height: 264px;
-      width: 1000px;
+      width: 996px;
   }
   
   .header-bg {
@@ -20,33 +22,42 @@
   }
    .header-bg-1 {
       height: 264px;
-      background-image: url('../images/vogel.jpg');
+      background-image: url('../images/zwir2i.jpg');
+      background-size: 100%;
+  }
+  .header-bg-1:hover{
+     background-position:0 -264px;
+      background-image: url('../images/zwir2i.jpg');
       background-size: 100%;
   }
   
   body {
-      background-image: url("../images/spey.jpg");
+      background-image: url("../images/spey2.jpg");
       background-attachment: fixed;
   }
+  .home{
+    width: 1000px;
+    margin:0 auto;
+  }
   
-  #wraper {
-      width: 1000px;
+  #wrap {
+      width: 996px;
       margin: 20px auto 0;
       min-height: 100%;
       height: auto !important;
       height: 100%;
   }
-  
+
   .content {
       background: silver;
-      width: 1000px;
+      width: 996px;
       color: #000;
       height: 100%;
       margin: 0 auto;
       text-align: center;
       font-size: 22px;
       border: 2px solid #6E6E6E;
-      box-shadow: 0 0 0 6px #c0c0c0, 0 0 4px 6px;
+      box-shadow: 0 0 0 6px #b8860b, 0 0 4px 6px;
       border-radius: 8px;
   }
   
@@ -56,7 +67,7 @@
   
   .container {
       position: relative;
-      width: 1000px;
+      width: 996px;
       height: 24px;
   }
   
@@ -80,19 +91,17 @@
   
   .block3 {
       position: absolute;
-      left: 400px;
-      top: 80px;
-      font-size: 64px;
+      margin-top: 40px;
+      margin-left:540px;
+      font-size: 72px;
       font-family: "Bickham Script Two", Arial;
-      color: rgba(255, 255, 255, 0.9);
-      text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+      color:#f0ffff;
   }
    .block3-1{
       position: absolute;
-      left: 750px;
-      top: 20px;
-      font-size:18px;
-      font-family: "Bickham Script Two", Arial;
+      left: 800px;
+      top: 40px;
+      font: italic 24px Arial;
       color: yellow;
   }
   
@@ -100,10 +109,10 @@
       text-transform: uppercase;
       text-align: center;
       line-height: 50px;
-      background: #69c;
+      background: #778899;
       border: 2px solid #6E6E6E;
-      box-shadow: 0 0 0 6px #c0c0c0, 0 0 4px 6px;
-      text-shadow: 0 1px 1px black;
+      box-shadow: 0 0 0 6px #b8860b, 0 0 4px 6px;
+      text-shadow: 1px black;
       -moz-border-radius: 8px;
       -webkit-border-radius: 8px;
       border-radius: 8px;
@@ -113,57 +122,110 @@
       padding: 0;
       margin: 0;
   }
-  
   #menu li {
       display: inline;
       list-style: none;
       margin: 5px 10px;
   }
-  
   #menu li a {
       padding: 5px 10px;
-      color: #fff;
+      color: blue;
       text-decoration: none;
-      -webkit-border-radius: 8px;
+      -webkit-border-r#cccadius: 8px;
       -moz-border-radius: 8px;
       border-radius: 8px;
   }
-  
   #menu li a:hover {
-      background: #36c;
+      background: #d8bfd8;
       color: #ff0;
       -webkit-transition-property: color, background;
       -webkit-transition-duration: 0.5s, 0.5s;
   }
-  
   #menu.default {
-      width: 1000px;
+      width: 996px;
   }
-  
   #menu.fixed {
       position: fixed;
       top: -5px;
-      width: 1000px;
-      padding: 5px 0;
+      width: 996px;
       -moz-box-shadow: 15px 5px 20px #333;
       -webkit-box-shadow: 15px 5px 20px #333;
       box-shadow: 15px 5px 20px #333;
   }
-  
   .transbg {
-      background-color: rgba(60, 130, 190, 0.7)!important;
+      background-color: #d8bfd8!important;
   }
   /*end*/
-  
   .main {
       margin: 0 auto;
       background-color: #c0c0c0;
-      width: 1000px;
+      width: 996px;
       border: 2px solid #6E6E6E;
-      box-shadow: 0 0 0 6px #c0c0c0, 0 0 4px 6px;
+      box-shadow: 0 0 0 6px #b8860b, 0 0 4px 6px;
       border-radius: 8px;
   }
-  
+   .slider{
+    width: 910px;
+    padding: 25px;
+    margin: 10px auto;
+     border: #b8860b 6px ridge;
+      border-collapse: collapse;
+    background: #ccc;
+  }
+    #s1{
+    width: 350px;
+    height: 240px;
+    float: left;
+    padding: 5px;
+    margin-left:  20px;
+    margin-bottom: 20px;
+     border: #b8860b 6px ridge;
+      border-collapse: collapse;
+    background:#ccc;
+    
+ }
+
+#s2{
+    width: 350px;
+    height: 240px;
+    float: left;
+    padding: 5px;
+    margin-left:  20px;
+     border: #b8860b 6px ridge;
+      border-collapse: collapse;
+    background:#ccc;
+    
+ }
+ #s3{
+    width: 350px;
+    height: 240px;
+    float: left;
+    padding: 5px;
+    margin-left:  20px;
+    border: #b8860b 6px ridge;
+    border-collapse: collapse;
+    background:#ccc;
+    position: relative; 
+ }
+ hr { 
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border: #b8860b 6px ridge;
+} 
+.pics img {
+margin:20px;
+}
+ div .flowers img{
+  color: blue;
+  float:left;
+  margin:15px;
+  border:1px solid #000000;
+}
+
   p {
       font-size: 22px;
       text-indent: 30px;
@@ -173,7 +235,6 @@
     font-family: Times, serif;
     color: navy; 
    }
-  
   #plyt,
   #plyt-1 {
       position: relative;
@@ -182,12 +243,16 @@
       background: #808080;
       color: #fff;
   }
-  
+  #pre{
+    font-size: 22px;
+    display:inline-block;
+
+
+  }
   .page-headline {
       font-size: 26px;
       margin: 5px 0 0 0;
   }
-  
   .pag {
       display: inline-block;
       font-size: 32px;
@@ -197,19 +262,16 @@
       left: 350px;
       top: 0px;
   }
-  
   .par {
       padding: 2px 3px 2px 3px;
   }
-  
   .par p {
-      text-align: center;
+      text-align:left;
   }
-  
-  .par1 p {
+  .par1 {
       text-align: center;
       border-style: none;
-      margin: 0 auto;
+      height: auto;  
   }
   .par2{
     width: 996px;
@@ -222,54 +284,76 @@
   figcaption {
       text-align: center;
   }
-  
-  figure.img {
-      border-style: 4px solid green;
+    figure.img {
+      width: 980px;
+      border-style: 2px solid green;
       box-shadow: 0 0 0 6px #fff, 0 0 4px 6px;
-  }
-  
-  img {
-      margin: 2px 2px;
-      border: 2px solid yellow;
-  }
-  
-  .table {
-      width: 500px;
-  }
-  
+      border-radius: 5px;
+      margin: 10px auto;
+    }
+    figure .img1 img,
+    figure .img2 img{
+      display: inline-block;
+      float:left;
+       margin:2px;
+        border:1px solid #000000;
+    }
+    figure .img1 a:hover img,
+    figure.img2 a:hover img  {
+      margin:2px;
+      border:1px solid #ffffff;
+     }
+  figure.img figcaption {
+      max-width: 100%;
+      padding: 0 5%;
+      font: italic 90% Georgia,serif;
+}
+.leftimg {
+    position: relative;
+    float:left; 
+    margin: 7px 7px 7px 10px;
+    border: 1px solid yellow;
+    } 
   .table,
-  .table1,
-  .table2,
   .table3 {
-      margin: 20px 10px 20px 10px;
+      width: 485px;
+      margin: 20px 0 20px 80px;
       border: #b8860b 6px ridge;
       border-collapse: collapse;
       display: inline-block;
   }
-  
   .table1 {
-      width: 600px;
+      width: 510px;
+      margin: 20px 0 30px 40px;
+      border: #b8860b 6px ridge;
+      border-collapse: collapse;
+      display: inline-block;
+      position: relative;
+      min-height: 200px;
   }
-  
-  .table2 {
-      width: 605px;
-  }
-  
-  .table3 {
-      width: 540px;
-  }
-  
+    .table2{
+       width: 905px;
+       margin: 20px ;
+      border: #b8860b 6px ridge;
+      border-collapse: collapse;
+      display: inline-block;
+    }
   td,
   th,
   tr {
       border: #b8860b 2px outset;
-      padding: 3px;
+      padding: 6px;
       text-align: center;
   }
-  
+  .img #img-b{
+    position:relative;
+     left:20px; 
+     margin:5px;
+
+  }
   caption {
       font: italic bold 16px Arial;
-      padding: 10px;
+      padding: 15px;
   }
   
   thead {
@@ -343,7 +427,7 @@
       font-weight: bold;
       display: block;
       float: left;
-      padding: 4px 6px;
+      paleft:550px; top:100pxdding: 4px 6px;
   }
   
   #pagination-digg a:link,
@@ -364,7 +448,7 @@
       display:block;
       position:relative;
       height: 30px;
-      width: 1000px;
+      width: 996px;
   }
   #content1 {
       display:block;
@@ -375,7 +459,7 @@
       color: white;
       max-height: 30px;
       border: 3px solid #6E6E6E;
-      box-shadow: 0 0 0 6px #c0c0c0, 0 0 4px 6px;
+      box-shadow: 0 0 0 6px #b8860b, 0 0 4px 6px;
       border-radius: 8px;
       padding:1px 0;
       margin:0 auto;
