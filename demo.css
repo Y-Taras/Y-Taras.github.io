@@ -1,0 +1,233 @@
+/* General Blueprint Style */
+/*@import url(https://fonts.googleapis.com/css?family=Lato:400,700);
+@font-face {
+	font-family: 'bpicons';
+	font-weight: normal;
+	font-style: normal;
+	src: url('../fonts/bpicons/bpicons.eot');
+	src: url('../fonts/bpicons/bpicons.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/bpicons/bpicons.woff') format('woff'),
+	url('../fonts/bpicons/bpicons.ttf') format('truetype'),
+	url('../fonts/bpicons/bpicons.svg#bpicons') format('svg');
+} /* Made with http://icomoon.io/ */
+
+/* Resets */
+   */
+/* Helper classes */
+.cf:before,
+.cf:after {
+	content: ' ';
+	display: table;
+}
+
+.cf:after {
+	clear: both;
+}
+
+.hidden {
+	position: absolute;
+	opacity: 0;
+	pointer-events: none;
+}
+
+/* Main styles */
+
+a {
+	text-decoration: none;
+	color: yellow;
+	outline: none;
+	text-align: left;
+}
+
+a:focus {
+	color: #ddd;
+}
+
+a:hover {
+	color: #fff;
+}
+
+/* header */
+.header {
+	margin: 0 auto;
+	padding: 0 3em 0;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	-ms-flex-wrap: wrap; 
+	flex-wrap: wrap;
+}
+
+
+.header > span {
+	width: 100%;
+	font-weight: 700;
+	font-size: 0.85em;
+	color: #c0c0c0;
+	position: relative;
+	z-index: 100;
+	display: block;
+	padding: 0 0 .6em .1em;
+	letter-spacing: .5em;
+	text-transform: uppercase;
+}
+
+.header > span span:after {
+	font-size: 50%;
+	font-size: 75%;
+	position: relative;
+	top: -8px;
+	left: -12px;
+	width: 30px;
+	height: 30px;
+	cursor: help;
+	color: yellow;
+}
+
+.header > span span:hover:before {
+	content: attr(data-content);
+	font-size: 110%;
+	font-weight: 700;
+	line-height: 1.2;
+	max-width: 500px;
+	position: absolute;
+	left: auto;
+	margin-left: 4px;
+	padding: .8em 1em;
+	text-align: left;
+	text-indent: 0;
+	letter-spacing: 0;
+	text-transform: none;
+	color: #fff;
+	background: #5C5EDC;
+}
+
+.header nav span {
+	position: absolute;
+	z-index: 500;
+	right: 10px;
+	top: 20px;
+}
+
+.header nav a {
+	position: absolute;
+	width: 2.5em;
+	height: 2.5em;
+	right: 100px;
+	border-radius: 50%;
+	background-image: url("../images/smile2.png");
+}
+
+
+.header nav a:hover {
+	background-image: url("../images/smile1.png");
+
+}
+.icon-prev {
+	position:absolute;
+	margin-right: 50px;
+	top: 10px;
+	z-index: 500;
+}
+
+.icon-next:after {
+	content: '\e000';
+}
+
+.icon-drop:after {
+	content: '\e001';
+}
+
+.icon-archive:after {
+	content: '\e002';
+}
+
+.icon-about:after {
+     padding-top: 30px;
+     display:inline-block;
+     height: 22px;
+  width: 20px;
+    content: '\e003';
+}
+
+.icon-prev:after {
+	 content: " ";
+ 
+}
+  .table1 {
+      width: 510px;
+      margin: 20px 0 30px 40px;
+      border:  #685884 6px ridge;
+      border-collapse: collapse;
+      display: inline-block;
+      position: relative;
+      min-height: 180px;
+  }
+    td,
+  th,
+  tr {
+      border:#deb887 2px outset;
+      padding: 6px;
+      text-align: center;
+  }
+  .img #img-b{
+    position:relative;
+     left:20px; 
+     margin:5px;
+
+  }
+  caption {
+      font: italic bold 16px Arial;
+      padding: 15px;
+  }
+  
+  thead {
+      background-color:  #685884;
+      text-align: center;
+  }
+  
+  tbody {
+      background-color: #685884;
+      text-align: left;
+  }
+  
+  tfoot {
+      background-color: #685884;
+      text-align: left;
+      font: italic 14px Arial;
+  }
+  
+  tr:hover {
+      background-color: #b8860b;
+      color:#685884;
+  }
+      .table2{
+       width: 905px;
+       margin: 20px ;
+      border: #b8860b 6px ridge;
+      border-collapse: collapse;
+      display: inline-block;
+    }
+
+                
+
+@media screen and (max-width: 40em) {
+	.header {
+		text-align: center;
+	}
+	.header > span {
+		text-indent: 30px;
+	}
+	.header > span span:hover:before {
+		right: 0px;
+	}
+	.header h1 {
+		font-size: 1.8em;
+		width: 100%;
+	}
+	.header nav {
+		margin: 0;
+		width: 100%;
+	}
+}
