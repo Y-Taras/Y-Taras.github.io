@@ -1,5 +1,6 @@
 body{
   background-color: #ECECEA;
+  font-family: 'Arial';
 }
 div#root {
   margin: 0 auto;
@@ -14,8 +15,16 @@ span{
   padding: 20px 5px ;
 }
 
+footer{
+width: 30%;
+  margin: 25px auto;
+  a{
+    color: #64b26a;
+  }
+
+
+}
 table {
-  font-family: 'Arial';
   margin: 25px auto;
   border-collapse: collapse;
   border: 1px solid #eee;

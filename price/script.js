@@ -20,7 +20,7 @@ class TableBox extends React.Component {
                     response.json().then((data) => {
                         console.log('getting data:..', data.feed.entry);
                         let tempData = data.feed.entry;
-                        this.setState({data : tempData});
+                        this.setState({data: tempData});
 
                     })
                 }
@@ -56,8 +56,10 @@ class CampersList extends React.Component {
                 <thead>
                 <tr>
                     <th>#</th>
-                    <th>Назва Виробу</th>
-                    <th>Ціна та розмір</th>
+                    <th>1</th>
+                    <th>2</th>
+                    <th>2</th>
+                    <th>2</th>
                 </tr>
                 </thead>
                 <tbody>
@@ -73,14 +75,27 @@ class Camper extends React.Component {
         super(props);
     }
 
+
+
     render() {
+
+        const convertT = (data)=> {
+            let arr = data.split(/(?:,\s)?_[a-z\d]+:\s/g);
+            arr.shift();
+            return arr;
+        };
+
+        let rowDataArray = convertT(this.props.user.content.$t);
+
         return (
             <tr key={this.props.index}>
                 <td>{this.props.index + 1}</td>
                 <td>
                     <span>{this.props.user.title.$t}</span>
                 </td>
-                <td>{this.props.user.content.$t}</td>
+                <td>{rowDataArray[0]}</td>
+                <td>{rowDataArray[1]}</td>
+                <td>{rowDataArray[2]}</td>
             </tr>
         )
     }
