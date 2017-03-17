@@ -1,0 +1,156 @@
+body, html {
+    height: 100%;
+    min-height: 100%;
+    position: relative;
+
+}
+
+body {
+    background: url(../neu_site/img/images.jpeg) 100% 100% repeat;
+    background-size: cover;
+
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+    display: block;
+}
+p{
+    font-size: 1.5em;
+}
+#logo{
+
+}
+#par{
+    position: relative;
+    top: 1.9rem;
+    opacity: .8;
+    border-style:hidden;
+   
+    max-width: 100%;
+    margin: 10px 0 20px 0;
+    border: 1px solid #ddd;
+    -webkit-box-shadow: 5px 5px 30px rgba(0,0,0,0.4);
+    -moz-box-shadow: 5px 5px 30px rgba(0,0,0,0.4);
+    -ms-box-shadow: 5px 5px 30px rgba(0,0,0,0.4);
+    -o-box-shadow: 5px 5px 30px rgba(0,0,0,0.4);
+    box-shadow: 5px 5px 30px rgba(0,0,0,0.4);
+}
+#par-1,#par-2 {
+    position: relative;
+    top: 1rem
+}
+#par-1 .thumbnail img,
+#par-2 .thumbnail img{
+max-width:100%;
+border:3px solid black;
+position: relative;
+
+}
+.carousel-indicators{
+    top: 315px
+}
+.navbar-right {
+
+    float: right !important;
+    margin-right: 0;
+    opacity: 1;
+}
+
+.bg-faded {
+    background-color: rgba(230, 237, 235, 0.68) !important;
+
+}
+#my-pics{
+   padding: 10px;
+   width:40rem; 
+   margin:auto;
+}
+#bl,#bl-1 {
+   position: sticky;
+    top: 2.8rem;
+    left: 10px;
+    margin-bottom:0 20px;
+    padding: 10px;
+    z-index: -5;  
+}
+#bl{
+   opacity: 0.6;
+   background-color:#a7acb0;  
+}
+#bl-1{
+    opacity: 0.3;
+   background-color:#a7acb0;
+}
+#par {
+   position: sticky;
+    top: 3.4rem;
+    left: 10px;
+    margin-bottom:0 20px;
+    padding: 10px;
+    z-index: -5
+}
+#par-1 {
+    top: .1rem;
+    left: 10px;
+    margin-bottom:0 20px;
+    padding: 10px;
+     background-color:#a7acb0;
+    z-index: -5
+}
+li a.nav-link {
+    color: yellow;
+    font-weight: bold;
+}
+
+#rys {
+    position: relative;
+    top: 20rem;
+    left: 10px;
+    margin-bottom: 0px;
+    padding: 10px;
+}
+#tex{
+    margin-top: .5em;
+    background-color:#a7acb0;
+    opacity: .8
+}
+#main-table{
+    padding-top: 3.3em;
+    background-color: #a7acb0;
+}
+#aaa,#bbb{
+    background-color: #9f9a9a;
+     width:20%
+}
+.table td, .table th {
+    padding: .75rem;
+    vertical-align: inherit;
+    border-top: 3px solid #eceeef;
+}
+.table td{
+   background-color: #9f9a9a; 
+}
+#foot{
+    border: 1px solid white;
+    background: RGBA(81, 101, 140, 0.19);;
+    text-align: center;
+    padding-top: 8px;
+    padding-bottom: 8px;  
+}
+.carousel-item img{
+    margin: 0 auto;
+}
+#my-pics{
+    padding: 10px;
+    width: 100%;
+    margin: auto;
+}
+
+.icon-about:after {
+  content: " ";
+  display:inline-block;
+  height: 20px;
+  width: 30px;
+  background: url("../neu_site/favicon1.jpg");
+  background-repeat:no-repeat; 
+}
