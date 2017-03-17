@@ -6,7 +6,7 @@ body, html {
 }
 
 body {
-    background: url(../neu_site/img/images.jpeg) 100% 100% repeat;
+    background: url(/img/images.jpeg) 100% 100% repeat;
     background-size: cover;
 
 }
