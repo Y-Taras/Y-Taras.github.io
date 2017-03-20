@@ -31,7 +31,7 @@
                 </span>
             </a>
             <ul class="nav navbar-nav navbar-right">
-                <li class="nav-item active">
+                <li class="nav-item ">
                     <a class="nav-link" href="./index.html">ГОЛОВНА<span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item dropdown btn-group">
@@ -43,7 +43,7 @@
                         <a class="dropdown-item" href="./bordiyr.html">Бордюри квітники...</a>
                     </div>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item active">
                     <a class="nav-link" href="./price.html">ЦІНИ</a>
                 </li>
                 <li class="nav-item">
@@ -180,22 +180,22 @@
                     <td id="bbb">
                         <table>
                             <tr>
-                                <td>280грн</td>
+                                <td>-</td>
                             </tr>
                             <tr>
-                                <td>260грн</td>
+                                <td>210грн</td>
                             </tr>
                             <tr>
-                                <td>250грн</td>
-                            </tr>
-                            <tr>
-                                <td>240грн</td>
+                                <td>200грн</td>
                             </tr>
                             <tr>
                                 <td>190грн</td>
                             </tr>
                             <tr>
-                                <td>180грн</td>
+                                <td>150грн</td>
+                            </tr>
+                            <tr>
+                                <td>140грн</td>
                             </tr>
                         </table>
                     </td>
@@ -281,6 +281,7 @@
 
 
                 </tr>
+
                 <tr>
                     <th>7</th>
                     <th scope="row">
@@ -297,6 +298,17 @@
 
 
                 </tr>
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Вид</th>
+                        <th>Назва</th>
+                        <th>Вимір</th>
+                        <th>Розмір</th>
+                        <th>Ціна</th>
+
+                    </tr>
+                </thead>
                 <tr>
                     <th>8</th>
                     <th scope="row">
@@ -339,7 +351,38 @@
                     </td>
                     <td>м кв</td>
                     <td>30х30х3<br>25х25х2.5</td>
-                    <td>220грн<br>200грн</td>
+                    <td>250грн<br>220грн</td>
+
+
+                </tr>
+                <tr>
+                    <th>11</th>
+                    <th scope="row">
+                        <img src="img/bordur3.jpg" alt="" class="img-fluid">
+                    </th>
+                    <td>
+                        <h6><strong>Бордюр</strong></h6>
+                        <p class="text-teal">Сірий<br>Червоний </p>
+                    </td>
+                    <td>шт</td>
+                    <td>50х20х4см<br>50х20х4см</td>
+                    <td>25грн<br>30грн</td>
+
+
+                </tr>
+                <tr>
+                    <th>12</th>
+                    <th scope="row">
+                        <img src="img/fasadna.jpg" alt="" class="img-fluid">
+                    </th>
+                    <td>
+                        <h6><strong>Плитка фасадна різнорозмірна</strong></h6>
+                        <p class="text-teal"> Колір Сірий<br>Червоний </p>
+                    </td>
+                    <td>м кв</td>
+                    <td>26х33см<br>26х26<br>26х19см<br> 26х6см
+                        <br>27х12см<br>12х12см</td>
+                    <td>120грн<br>140грн</td>
 
 
                 </tr>
@@ -349,6 +392,10 @@
             <!--/Table body-->
         </table>
     </div>
+    </div>
+    <div class="container-fluid">
+
+        <img src="img/par5.png" alt="img" class="img-fluid  m-x-auto d-block">
 
     </div>
     <footer>
@@ -380,7 +427,7 @@
             <div class="row">
                 <div class="col-md-5">
                     <p class="small">
-                        Copyright © 2016 Розробник сайту студія &lt; Designed by "Y Studio" &gt
+                        Copyright © 2016 Розробник сайту студія &lt; Designed by "Y Studio" &gt;
 
                     </p>
                 </div>
@@ -429,7 +476,7 @@
 
         function changePos() {
             var header = document.querySelector("#main-header > .navbar");
-            if (window.pageYOffset  180) {
+            if (window.pageYOffset > 180) {
                 header.style.position = "fixed";
                 header.style.top = "0";
                 header.style.backgroundColor = '#a7acb0';

@@ -16,7 +16,6 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.4/css/bootstrap.min.css" integrity="sha384-2hfp1SzUoho7/TsGGGDaFdsuuDL0LX2hnUp6VkX3CUQ2K4K+xjboZdsXyp4oUHZj"
         crossorigin="anonymous">
     <link rel="stylesheet" href="./neu.css" />
-    <link rel="stylesheet" href="./neu.css" />
 
 </head>
 
@@ -30,10 +29,10 @@
                 </span>
             </a>
             <ul class="nav navbar-nav navbar-right">
-                <li class="nav-item active">
+                <li class="nav-item">
                     <a class="nav-link" href="./index.html">ГОЛОВНА<span class="sr-only">(current)</span></a>
                 </li>
-                <li class="nav-item dropdown btn-group">
+                <li class="nav-item active dropdown btn-group">
                     <a class="nav-link dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
 ПРОДУКЦІЯ
 </a>
@@ -55,9 +54,11 @@
     </header>
     <!--img heder-->
     <div class="container-fluid" id="par">
-
+        <div class="img-overlay">
+            <h4 class="card-title">What Next?</h4>
+        </div>
         <img src="img/Tall.png" class="img-fluid  m-x-auto" alt="Photo">
-
+    </div>
     </div>
     <!--end img heder-->
     <!--content-->
@@ -197,7 +198,7 @@
             <div class="row">
                 <div class="col-md-5">
                     <p class="small">
-                        Copyright © 2016 Розробник сайту студія &lt; Designed by "Y Studio" &gt
+                        Copyright © 2016 Розробник сайту студія &lt; Designed by "Y Studio" &gt;
 
                     </p>
                 </div>
@@ -246,7 +247,7 @@
 
         function changePos() {
             var header = document.querySelector("#main-header > .navbar");
-            if (window.pageYOffset  180) {
+            if (window.pageYOffset > 180) {
                 header.style.position = "fixed";
                 header.style.top = "0";
                 header.style.backgroundColor = '#a7acb0';

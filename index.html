@@ -14,7 +14,6 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.4/css/bootstrap.min.css" integrity="sha384-2hfp1SzUoho7/TsGGGDaFdsuuDL0LX2hnUp6VkX3CUQ2K4K+xjboZdsXyp4oUHZj"
         crossorigin="anonymous">
     <link rel="stylesheet" href="./neu.css" />
-
 </head>
 
 <body>
@@ -65,7 +64,7 @@
     <div class="container-fluid">
 
         <!-- Carousel container -->
-        <div id="my-pics" class="carousel slide" data-ride="carousel" style="width:100%;margin:auto">
+        <div id="my-pics" class="carousel slide" data-ride="carousel" style="width:100%;margin:auto;">
 
             <!-- Indicators -->
             <ol class="carousel-indicators">
@@ -208,7 +207,26 @@
                 </div>
                 <div class="col-md-5">
                     <p class="small">
-                        This site is developed and maintained by Vasyl Yaremkiv. All Rights Reserved.</p>
+                        This site is developed and maintained by Vasyl Yaremkiv. All Rights Reserved.
+                        <!-- I.UA counter -->
+                        <a href="http://www.i.ua/" target="_blank" onclick="this.href='http://i.ua/r.php?210907';" title="Rated by I.UA">
+                            <script type="text/javascript">
+                                <!--
+                                    iS='http' + (window.location.protocol == 'https:' ? 's' : '') +
+                                        '://r.i.ua/s?u210907&p6&n' + Math.random();
+                                iD = document; if (!iD.cookie) iD.cookie = "b=b; path=/"; if (iD.cookie) iS += '&c1';
+                                iS += '&d' + (screen.colorDepth ? screen.colorDepth : screen.pixelDepth)
+                                    + "&w" + screen.width + '&h' + screen.height;
+                                iT = iR = iD.referrer.replace(iP = /^[a-z]*:\/\//, ''); iH = window.location.href.replace(iP, '');
+                                ((iI = iT.indexOf('/')) != -1) ? (iT = iT.substring(0, iI)) : (iI = iT.length);
+                                if (iT != iH.substring(0, iI)) iS += '&f' + escape(iR);
+                                iS += '&r' + escape(iH);
+                                iD.write('<img src="' + iS + '" border="0" width="88" height="31" />');
+//-->
+                            </script>
+                        </a>
+                        <!-- End of I.UA counter -->
+                    </p>
                 </div>
             </div>
         </div>
@@ -232,7 +250,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.4/js/bootstrap.min.js" integrity="sha384-VjEeINv9OSwtWFLAtmc4JCtEJXXBub00gtSnszmspDLCtC0I4z4nqz7rEFbIZLLU"
         crossorigin="anonymous"></script>
 
-    <!-- Initialize Bootstrap functionality -->controlsContainer: '.carousel slide'
+    <!-- Initialize Bootstrap functionality -->
     <script>
         // Initialize tooltip component
         $(function () {
@@ -243,7 +261,6 @@
         $(function () {
             $('[data-toggle="popover"]').popover()
         })
-
     </script>
     <script>
         window.onscroll = changePos;
@@ -261,11 +278,10 @@
                 header.style.backgroundColor = 'green';
             }
         }
-
     </script>
     <script>
         $(document).ready(function () {
-            $('.carousel slide')({
+            $('.carousel slide').carousel slide({
                 animation: 'fade',
                 controlsContainer: '.carousel slide'
             });
