@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a307154b-1e47-4547-a7e7-7079b7cf14bd" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/article_brick_fence_color.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/article_brick_fence_construction.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/article_brick_fence_construction2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/article_gabion.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/article_gabion_types.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/article3.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/article4.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/articles.html" afterPath="$PROJECT_DIR$/articles.html" />
     </list>
     <ignored path="Parkan.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -316,7 +322,7 @@
       <workItem from="1492632783416" duration="1523000" />
       <workItem from="1492684053306" duration="2540000" />
       <workItem from="1492698692524" duration="1103000" />
-      <workItem from="1492814580561" duration="30000" />
+      <workItem from="1492814580561" duration="192000" />
     </task>
     <task id="LOCAL-00001" summary="Removed i.ua counter, changed domain">
       <created>1492632212218</created>
@@ -346,11 +352,18 @@
       <option name="project" value="LOCAL" />
       <updated>1492698827950</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Added two more articles">
+      <created>1492814634916</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1492814634916</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35506000" />
+    <option name="totallyTimeSpent" value="35668000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -428,7 +441,8 @@
     <MESSAGE value="Removed i.ua counter, changed domain" />
     <MESSAGE value="Google Map fixed zoom=10" />
     <MESSAGE value="Added two articles" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added two articles" />
+    <MESSAGE value="Added two more articles" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added two more articles" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
