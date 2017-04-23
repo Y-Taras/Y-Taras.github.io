@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a307154b-1e47-4547-a7e7-7079b7cf14bd" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/article_law.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/article5.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/article3.html" afterPath="$PROJECT_DIR$/article3.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/article4.html" afterPath="$PROJECT_DIR$/article4.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/article_law.jpg" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/article5.html" afterPath="$PROJECT_DIR$/article5.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/articles.html" afterPath="$PROJECT_DIR$/articles.html" />
     </list>
     <ignored path="Parkan.iws" />
@@ -61,8 +58,30 @@
         <entry file="file://$PROJECT_DIR$/articles.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="160">
-              <caret line="126" column="22" lean-forward="true" selection-start-line="126" selection-start-column="22" selection-end-line="126" selection-end-column="22" />
-              <folding />
+              <caret line="126" column="22" lean-forward="false" selection-start-line="126" selection-start-column="22" selection-end-line="126" selection-end-column="22" />
+              <folding>
+                <marker date="1492889053626" expanded="true" signature="6334:6483" ph="..." />
+                <marker date="1492889053626" expanded="true" signature="6562:8693" ph="..." />
+                <marker date="1492889053626" expanded="true" signature="6590:7754" ph="..." />
+                <marker date="1492889053626" expanded="true" signature="6642:7739" ph="..." />
+                <marker date="1492889053626" expanded="true" signature="6676:7720" ph="..." />
+                <marker date="1492889053626" expanded="true" signature="6719:6996" ph="..." />
+                <marker date="1492889053626" expanded="true" signature="6747:6969" ph="..." />
+                <marker date="1492889053626" expanded="true" signature="7039:7352" ph="..." />
+                <marker date="1492889053626" expanded="true" signature="7067:7325" ph="..." />
+                <marker date="1492889053626" expanded="true" signature="7395:7697" ph="..." />
+                <marker date="1492889053626" expanded="true" signature="7423:7670" ph="..." />
+                <marker date="1492889053626" expanded="true" signature="7805:8664" ph="..." />
+                <marker date="1492889053626" expanded="true" signature="7835:8649" ph="..." />
+                <marker date="1492889053626" expanded="true" signature="7874:8057" ph="..." />
+                <marker date="1492889053626" expanded="true" signature="7912:8034" ph="..." />
+                <marker date="1492889053626" expanded="false" signature="7978:7982" ph="&lt;" />
+                <marker date="1492889053626" expanded="false" signature="8006:8010" ph="&gt;" />
+                <marker date="1492889053626" expanded="true" signature="8096:8403" ph="..." />
+                <marker date="1492889053626" expanded="true" signature="8134:8380" ph="..." />
+                <marker date="1492889053626" expanded="true" signature="8442:8630" ph="..." />
+                <marker date="1492889053626" expanded="true" signature="8480:8607" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -343,7 +362,7 @@
       <workItem from="1492684053306" duration="2540000" />
       <workItem from="1492698692524" duration="1103000" />
       <workItem from="1492814580561" duration="361000" />
-      <workItem from="1492861789361" duration="92000" />
+      <workItem from="1492861789361" duration="775000" />
     </task>
     <task id="LOCAL-00001" summary="Removed i.ua counter, changed domain">
       <created>1492632212218</created>
@@ -387,11 +406,18 @@
       <option name="project" value="LOCAL" />
       <updated>1492814783168</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Added two more articles3">
+      <created>1492861920621</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1492861920621</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35929000" />
+    <option name="totallyTimeSpent" value="36612000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -471,7 +497,8 @@
     <MESSAGE value="Added two articles" />
     <MESSAGE value="Added two more articles" />
     <MESSAGE value="Added two more articles2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added two more articles2" />
+    <MESSAGE value="Added two more articles3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added two more articles3" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -750,8 +777,30 @@
     <entry file="file://$PROJECT_DIR$/articles.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
-          <caret line="126" column="22" lean-forward="true" selection-start-line="126" selection-start-column="22" selection-end-line="126" selection-end-column="22" />
-          <folding />
+          <caret line="126" column="22" lean-forward="false" selection-start-line="126" selection-start-column="22" selection-end-line="126" selection-end-column="22" />
+          <folding>
+            <marker date="1492889053626" expanded="true" signature="6334:6483" ph="..." />
+            <marker date="1492889053626" expanded="true" signature="6562:8693" ph="..." />
+            <marker date="1492889053626" expanded="true" signature="6590:7754" ph="..." />
+            <marker date="1492889053626" expanded="true" signature="6642:7739" ph="..." />
+            <marker date="1492889053626" expanded="true" signature="6676:7720" ph="..." />
+            <marker date="1492889053626" expanded="true" signature="6719:6996" ph="..." />
+            <marker date="1492889053626" expanded="true" signature="6747:6969" ph="..." />
+            <marker date="1492889053626" expanded="true" signature="7039:7352" ph="..." />
+            <marker date="1492889053626" expanded="true" signature="7067:7325" ph="..." />
+            <marker date="1492889053626" expanded="true" signature="7395:7697" ph="..." />
+            <marker date="1492889053626" expanded="true" signature="7423:7670" ph="..." />
+            <marker date="1492889053626" expanded="true" signature="7805:8664" ph="..." />
+            <marker date="1492889053626" expanded="true" signature="7835:8649" ph="..." />
+            <marker date="1492889053626" expanded="true" signature="7874:8057" ph="..." />
+            <marker date="1492889053626" expanded="true" signature="7912:8034" ph="..." />
+            <marker date="1492889053626" expanded="false" signature="7978:7982" ph="&lt;" />
+            <marker date="1492889053626" expanded="false" signature="8006:8010" ph="&gt;" />
+            <marker date="1492889053626" expanded="true" signature="8096:8403" ph="..." />
+            <marker date="1492889053626" expanded="true" signature="8134:8380" ph="..." />
+            <marker date="1492889053626" expanded="true" signature="8442:8630" ph="..." />
+            <marker date="1492889053626" expanded="true" signature="8480:8607" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
