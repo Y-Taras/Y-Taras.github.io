@@ -2,140 +2,145 @@
 <!--Created using XmlSitemapGenerator.org - Free HTML, RSS and XML sitemap generator-->
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
   <url>
-    <loc>https://kapeluh.com/</loc>
-    <lastmod>2017-05-06</lastmod>
+    <loc>http://kapeluh.com/</loc>
+    <lastmod>2017-05-07</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>https://kapeluh.com/contacts.html</loc>
-    <lastmod>2017-05-06</lastmod>
+    <loc>http://kapeluh.com/contacts.html</loc>
+    <lastmod>2017-05-07</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>https://kapeluh.com/products.html</loc>
-    <lastmod>2017-05-06</lastmod>
+    <loc>http://kapeluh.com/bordiyr.html</loc>
+    <lastmod>2017-05-07</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>https://kapeluh.com/wiki.html</loc>
-    <lastmod>2017-05-06</lastmod>
+    <loc>http://kapeluh.com/wiki.html</loc>
+    <lastmod>2017-05-07</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>https://kapeluh.com/price.html</loc>
-    <lastmod>2017-05-06</lastmod>
+    <loc>http://kapeluh.com/price.html</loc>
+    <lastmod>2017-05-07</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>https://kapeluh.com/bordiyr.html</loc>
-    <lastmod>2017-05-06</lastmod>
+    <loc>http://kapeluh.com/articles.html</loc>
+    <lastmod>2017-05-07</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>https://kapeluh.com/articles.html</loc>
-    <lastmod>2017-05-06</lastmod>
+    <loc>http://kapeluh.com/products.html</loc>
+    <lastmod>2017-05-07</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>https://kapeluh.com/wiki_concretewall_vstup.html</loc>
-    <lastmod>2017-05-06</lastmod>
+    <loc>http://kapeluh.com/index.html</loc>
+    <lastmod>2017-05-07</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>https://kapeluh.com/wiki_fen-shuj.html</loc>
-    <lastmod>2017-05-06</lastmod>
+    <loc>http://kapeluh.com/wiki_fen-shuj.html</loc>
+    <lastmod>2017-05-07</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>https://kapeluh.com/wiki_stonewall_ogorozha1.html</loc>
-    <lastmod>2017-05-06</lastmod>
+    <loc>http://kapeluh.com/wiki_concretewall_europarkany.html</loc>
+    <lastmod>2017-05-07</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>https://kapeluh.com/index.html</loc>
-    <lastmod>2017-05-06</lastmod>
+    <loc>http://kapeluh.com/wiki_concretewall_dekoratyvniBlocky.html</loc>
+    <lastmod>2017-05-07</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>https://kapeluh.com/wiki_concretewall_europarkany.html</loc>
-    <lastmod>2017-05-06</lastmod>
+    <loc>http://kapeluh.com/wiki_stonewall_ogorozha2.html</loc>
+    <lastmod>2017-05-07</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>https://kapeluh.com/wiki_stonewall_ogorozha2.html</loc>
-    <lastmod>2017-05-06</lastmod>
+    <loc>http://kapeluh.com/wiki_concretewall_vstup.html</loc>
+    <lastmod>2017-05-07</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>https://kapeluh.com/wiki_brickwall_colony.html</loc>
-    <lastmod>2017-05-06</lastmod>
+    <loc>http://kapeluh.com/wiki_stonewall_gabion.html</loc>
+    <lastmod>2017-05-07</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>https://kapeluh.com/wiki_stonewall_gabion.html</loc>
-    <lastmod>2017-05-06</lastmod>
+    <loc>http://kapeluh.com/wiki_stonewall_ogorozha1.html</loc>
+    <lastmod>2017-05-07</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>https://kapeluh.com/wiki_brickwall_vstup.html</loc>
-    <lastmod>2017-05-06</lastmod>
+    <loc>http://kapeluh.com/wiki_brickwall_prolyot.html</loc>
+    <lastmod>2017-05-07</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>https://kapeluh.com/wiki_stonewall_vstup.html</loc>
-    <lastmod>2017-05-06</lastmod>
+    <loc>http://kapeluh.com/wiki_stonewall_vstup.html</loc>
+    <lastmod>2017-05-07</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>https://kapeluh.com/wiki_brickwall_prolyot.html</loc>
-    <lastmod>2017-05-06</lastmod>
+    <loc>http://kapeluh.com/wiki_brickwall_colony.html</loc>
+    <lastmod>2017-05-07</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>https://kapeluh.com/article7.html</loc>
-    <lastmod>2017-05-06</lastmod>
+    <loc>http://kapeluh.com/wiki_brickwall_konstrukcia.html</loc>
+    <lastmod>2017-05-07</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>https://kapeluh.com/wiki_brickwall_fundament.html</loc>
-    <lastmod>2017-05-06</lastmod>
+    <loc>http://kapeluh.com/wiki_brickwall_fundament.html</loc>
+    <lastmod>2017-05-07</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>https://kapeluh.com/wiki_brickwall_konstrukcia.html</loc>
-    <lastmod>2017-05-06</lastmod>
+    <loc>http://kapeluh.com/wiki_brickwall_vstup.html</loc>
+    <lastmod>2017-05-07</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>https://kapeluh.com/article5.html</loc>
-    <lastmod>2017-05-06</lastmod>
+    <loc>http://kapeluh.com/article7.html</loc>
+    <lastmod>2017-05-07</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>https://kapeluh.com/article6.html</loc>
-    <lastmod>2017-05-06</lastmod>
+    <loc>http://kapeluh.com/article6.html</loc>
+    <lastmod>2017-05-07</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>https://kapeluh.com/article4.html</loc>
-    <lastmod>2017-05-06</lastmod>
+    <loc>http://kapeluh.com/article5.html</loc>
+    <lastmod>2017-05-07</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>https://kapeluh.com/article2.html</loc>
-    <lastmod>2017-05-06</lastmod>
+    <loc>http://kapeluh.com/article4.html</loc>
+    <lastmod>2017-05-07</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>https://kapeluh.com/article3.html</loc>
-    <lastmod>2017-05-06</lastmod>
+    <loc>http://kapeluh.com/article2.html</loc>
+    <lastmod>2017-05-07</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>https://kapeluh.com/article1.html</loc>
-    <lastmod>2017-05-06</lastmod>
+    <loc>http://kapeluh.com/article3.html</loc>
+    <lastmod>2017-05-07</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>http://kapeluh.com/article1.html</loc>
+    <lastmod>2017-05-07</lastmod>
     <changefreq>weekly</changefreq>
   </url>
 </urlset>
-<!--<guid value="2483bb38-73f0-4921-93ec-a5bd8a5b5f21" />-->
+<!--<guid value="96b01aa8-b8ef-4739-83d3-c78c6f02a16d" />-->
 <!--Created using XmlSitemapGenerator.org - Free HTML, RSS and XML sitemap generator-->
