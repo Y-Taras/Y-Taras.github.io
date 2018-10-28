@@ -133,7 +133,7 @@ li a.nav-link {
     background-color: rgb(130, 130, 143);
     border-color: #792700;
   }
-#main-table {
+#main-table, #main-table-1{
     padding-top: 3.3em;
     background-color: #a7acb0;
 }
@@ -149,7 +149,7 @@ li a.nav-link {
     border-top: 3px solid #eceeef;
 }
 
-.table td {
+.table td,.table th {
     background-color: #9f9a9a;
 }
 
