@@ -19,10 +19,6 @@ p {
     font-size: 1.5em;
 }
 
-#logo {
-
-}
-
 #par {
     position: relative;
     top: 1.9rem;
@@ -159,10 +155,6 @@ li a.nav-link {
     text-align: center;
     padding-top: 8px;
     padding-bottom: 8px;
-}
-
-.carousel-item img {
-    margin: 0 auto;
 }
 
 #my-pics {
