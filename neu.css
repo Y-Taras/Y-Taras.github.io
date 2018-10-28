@@ -128,7 +128,11 @@ li a.nav-link {
     background-color: #a7acb0;
     opacity: .8
 }
-
+.table .thead-light th {
+    color: #401500;
+    background-color: rgb(130, 130, 143);
+    border-color: #792700;
+  }
 #main-table {
     padding-top: 3.3em;
     background-color: #a7acb0;
