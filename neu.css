@@ -143,9 +143,11 @@ li a.nav-link {
     padding: .75rem;
     vertical-align: inherit;
     border-top: 3px solid #eceeef;
-}
+    background-color: #9f9a9a;
+   
 
-.table td,.table th {
+
+
     background-color: #9f9a9a;
 }
 
@@ -170,3 +172,10 @@ li a.nav-link {
     width: 30px;
     background: url("./favicon1.jpg") no-repeat;
 }
+@media (max-width: 575.98px) { 
+#tex h1,#tex p{
+    margin-top: .5em;
+    opacity: 1;
+   font: 1.5em sans-serif;
+   }
+ }
