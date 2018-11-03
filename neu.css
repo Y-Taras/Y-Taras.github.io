@@ -70,9 +70,9 @@ p {
 
 #bl, #bl-1 {
     position: sticky;
-    top: 2.8rem;
-    left: 10px;
-    margin: 0 20px;
+    top: 3rem;
+    
+    margin: 0 auto;
     padding: 10px;
     z-index: -5;
 }
