@@ -71,7 +71,6 @@ p {
 #bl, #bl-1 {
     position: sticky;
     top: 3rem;
-    
     margin: 0 auto;
     padding: 10px;
     z-index: -5;
