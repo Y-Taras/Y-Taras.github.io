@@ -61,26 +61,7 @@
     </div>
     <!--end Image fixed-->
     <div id="map"></div>
-    <div id="disqus_thread"></div>
-    <script>
-    /**
-     *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-     *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
-    /*
-    var disqus_config = function () {
-    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
-    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-    };
-    */
-    (function() { // DON'T EDIT BELOW THIS LINE
-        var d = document,
-            s = d.createElement('script');
-        s.src = 'https://www-parkan-trade.disqus.com/embed.js';
-        s.setAttribute('data-timestamp', +new Date());
-        (d.head || d.body).appendChild(s);
-    })();
-    </script>
-    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+   
     <footer>
         <div class="small">
             <div class="container-fluid" id="foot">
@@ -145,23 +126,6 @@
         $('[data-toggle="popover"]').popover()
     })
     </script>
-    <script>
-    window.onscroll = changePos;
-
-    function changePos() {
-        var header = document.querySelector("#main-header > .navbar");
-        if (window.pageYOffset > 180) {
-            header.style.position = "fixed";
-            header.style.top = "0";
-            header.style.backgroundColor = '#a7acb0';
-
-        } else {
-            header.style.position = "absolute";
-            header.style.top = "0";
-            header.style.backgroundColor = 'green';
-        }
-    }
-    </script>
    
     <script>
     function initMap() {
@@ -181,7 +145,7 @@
     </script>
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDHJyUqsrz-sBCRxwAkIeWaEqbAJJF8Ebg&callback=initMap">
     </script>
-    <script id="dsq-count-scr" src="//www-parkan-trade.disqus.com/count.js" async></script>
+   
 </body>
 
 </html>
