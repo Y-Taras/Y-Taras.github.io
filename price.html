@@ -35,7 +35,7 @@
         <nav class='navbar  navbar-light navbar-fixed-top '>
 			<a href='#' class='navbar-brand'>
 						<span>
-							<span class="icon icon-about" tabindex="0" data-toggle="tooltip" data-placement="bottom" title="Швидка розробка адаптивних сайтів /This site is developed and maintained by Vasyl Yaremkiv/">
+							<span class="icon icon-about" tabindex="0" data-toggle="tooltip" data-placement="bottom" title="Швидка розробка адаптивних сайтів. <br> tel. 067 453 37 40 <br> /This site is developed and maintained by Vasyl Yaremkiv/">
 									<button class="btn " style="pointer-events: none;" type="button" disabled>Designed by "Y Studio"</button>
 							</span>
 						</span>
@@ -607,7 +607,37 @@
     $('[data-toggle="popover"]').popover()
   })
 </script>
+  <script>
+    var analytics = true;
+    try {
+        if (
+            'localStorage' in window &&
+            window['localStorage'] !== null &&
+            localStorage["analytics"] == 'no'
+        ) {
+            analytics = false;
+        }
+    } catch (e) {}
 
+    if (analytics) {
+        (function(i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function() {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-76634359-2', 'auto');
+        ga('send', 'pageview');
+    } else {
+        console.log('Google Analytics has been disabled');
+    }
+    </script>
 
 </body>
 
