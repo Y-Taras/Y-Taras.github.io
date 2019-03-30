@@ -103,6 +103,7 @@ li a.nav-link {
 #main-table, #main-table-1{
     padding-top: 3.3em;
     background-color: #a7acb0;
+    text-align: center
 }
 #aaa, #bbb {
     background-color: #9f9a9a;
