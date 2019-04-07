@@ -1,0 +1,124 @@
+
+body, html {
+    height: 100%;
+    min-height: 100%;
+    position: relative;
+    background: url("img/spey2.jpg") 100% 100% repeat;
+    background-attachment: fixed;  
+}
+article, aside, details, figcaption, figure, footer, header, main, menu, nav, section, summary {
+    display: block;
+}
+p {
+    font-size: 1.5em;
+}
+
+#par-1, #par-2 {
+    position: relative;
+    top: 1rem
+}
+#par-1 .thumbnail img,
+#par-2 .thumbnail img {
+    max-width: 100%;
+    border: 3px solid black;
+    position: relative;
+}
+
+#my-pics {
+    padding: 10px;
+    width: 40rem;
+    margin: auto;
+}
+#bl, #bl-1,#par {
+    position: sticky;
+    top: 3.5rem;
+    margin: 0 auto;
+	padding: 10px;
+	background-color: #a7acb0;
+    z-index: 99;
+}
+#bl-2{
+ max-width: 100%;
+ background-color: #a7acb0;  
+}
+#bl a{
+    color: rgb(197, 191, 191);
+}
+
+li a.nav-link {
+    font-weight: bold;
+}
+#rys {
+    position: relative;
+    top: 20rem;
+    left: 10px;
+    margin-bottom: 0;
+    padding: 10px;
+}
+#tex,#tex1,#tex2{
+    margin-top: 1em;
+    background-color: #73818f59;
+    opacity: .9
+}
+.table .thead-light th {
+    color: #401500;
+    background-color: rgb(130, 130, 143);
+    border-color: #792700;
+  }
+#main-table, #main-table-1{
+    padding-top: 3.3em;
+    background-color: #a7acb0;
+    text-align: center
+}
+.table td, .table th {
+    padding: .75rem;
+    vertical-align: inherit;
+    border-top: 3px solid #eceeef;
+	background-color: #9f9a9a;
+}
+#foot{
+    border: 1px solid white;
+    text-align: center;
+    background-color: #a4a8ac59;
+} 
+#foot1{
+    background-color: #a4a8ac59; 
+}
+#my-pics {
+    padding: 10px;
+    width: 100%;
+    margin: auto;
+}
+.icon-about:after {
+    content: " ";
+    display: inline-block;
+    height: 20px;
+    width: 30px;
+    background: url("./favicon1.jpg") no-repeat;
+}
+nav {
+	margin: 0 auto;
+	background: rgb(77, 81, 119) !important;
+  }
+  nav ul li a {
+	font-size: 22px;
+	color: rgba(246, 248, 245, 0.5) !important;
+  }
+  ul{
+	margin-top: .5em; 
+  }
+  .btn-outline-secondary:hover {
+    color: rgb(235, 8, 27) !important;
+    background-color: rgb(122, 171, 245);
+    border-color: rgb(131, 9, 9);
+}
+  .navbar-right {
+	float: left !important;
+  }
+@media (max-width: 575.98px) { 
+#tex h1,#tex p{
+    margin-top: .5em;
+    opacity: 1;
+   font: 1.5em sans-serif;
+   }
+ }

@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="uk-UA">
+
+<head>
+    <meta charset="utf-8">
+    <title>Парапети, дашки, капелюхи на паркан в м. Надвірна, Івано - Франківськ та області</title>
+	<meta name='description' content='Виготовлення, встановлення парапетів,
+	дашків на паркан та декоративні бетонні вироби  в Івано - Франківській області'> 
+	   <meta name="Y" content="Designed by 'Y Studio'">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel='icon' type='image/png' href='favicon.ico' />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">         
+    <link rel='stylesheet' href='./neu.css' />
+    
+    <style>
+    #map {
+        height: 400px;
+        width: 100%;
+    }
+    </style>
+</head>
+
+<body>
+    <header >
+        <nav class='container navbar navbar-expand-lg navbar-light navbar fixed-top'>
+            <a class="navbar-brand" href="#">WebSite<img src="favicon.ico" width="30" height="30" alt=""></a>
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                  
+            <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class='navbar-nav mr-auto '>
+                <li class='nav-item active'>
+                    <a class='btn btn-sm btn-outline-secondary' href='./index.html'>ГОЛОВНА<span class='sr-only'>(current)</span></a>
+                </li>
+                <li class='nav-item'>
+                    <a class='btn btn-sm btn-outline-secondary' href='./products.html'>Парапети і шляпки</a>
+                </li>
+                <li class='nav-item'>
+                    <a class='btn btn-sm btn-outline-secondary' href='./bordiyr.html'>Бордюри квітники...</a>
+                </li>
+                <li class='nav-item'>
+                    <a class='btn btn-sm btn-outline-secondary' href='./articles.html'>СТАТТІ</a>
+                </li>
+                <li class='nav-item'>
+                    <a class='btn btn-sm btn-outline-secondary' href='./wiki.html'>ТЕХНОЛОГІЇ</a>
+                </li>
+                <li class='nav-item'>
+                    <a class='btn btn-sm btn-outline-secondary' href='./price.html'>ЦІНИ</a>
+                </li>
+                <li class='nav-item'>
+                    <a class='btn btn-sm btn-outline-secondary' href='./contacts.html'>КОНТАКТИ</a>
+                </li>
+            </ul>
+           </div>
+        </nav>
+    </header>
+    <!-- Image fixed-->
+    <div class='container shadow-lg p-3 mb-5 bg-secondary rounded' id='bl'>
+        <img src="img/parkan8.jpg" class="img-fluid" alt="Photo">
+    </div>
+    <!--end Image fixed-->
+    <div class='container shadow-lg p-3 mb-5 bg-secondary rounded'>
+    <div id="map"></div>
+    </div>
+    <footer>
+        <div class='container shadow-lg p-3 mb-6 bg-secondary rounded'>
+          
+               <div  id="foot" class='container'>
+                   <div class="row">
+                       <div class='col-md-4'>
+                           <p>
+                               <i class='fa fa-mobile fa-3x ' aria-hidden='true'></i> | 099 917 82 72
+                               <br> 095 211 75 22
+                               <br> 067 453 37 40
+                           </p>
+                       </div>
+                       <div class='col-md-4'>
+                           <p>
+                               <i class='fa fa-envelope-o fa-2x' aria-hidden='true'></i> <span class='field'>Email:</span>
+                               <br>
+                               <a href='mailto:info@yourdomain.com' title='Email'>yaremkv@gmail.com</a></p>
+                       </div>
+                       <div class='col-md-4'>
+                           <p><i class='fa fa-address-card fa-2x' aria-hidden='true'></i>Address:
+                               <br> вул Комунальна 2
+                               <br> м. Надвірна
+                               <br> Івано-Франківська обл.
+                           </p>
+                       </div>
+                  
+               </div>
+               
+           </div>
+       </div>
+   </footer>
+  
+      <div id="foot1" class='container shadow-lg p-3 mb-6 bg-secondary rounded'>
+           <div class='row'>
+               <div class='col-md-6'>
+                   <p class='small'>
+                       Copyright © 2017-2018-2019 Розробник сайту &lt; "Y Studio" &gt;
+                   </p>
+               </div>
+               <div class='col-md-6'>
+                   <p class='small'>
+                       This site is developed and maintained by Vasyl Yaremkiv. All Rights Reserved.
+                   </p>
+               </div>
+           </div>
+       </div> <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+       <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+       
+    <script>
+    function initMap() {
+        var uluru = {
+            lat: 48.637355,
+            lng: 24.575067
+        };
+        var map = new google.maps.Map(document.getElementById('map'), {
+            zoom: 10,
+            center: uluru
+        });
+        var marker = new google.maps.Marker({
+            position: uluru,
+            map: map
+        });
+    }
+    </script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDHJyUqsrz-sBCRxwAkIeWaEqbAJJF8Ebg&callback=initMap">
+    </script>
+     <script>
+        var analytics = true;
+        try {
+            if (
+                'localStorage' in window &&
+                window['localStorage'] !== null &&
+                localStorage["analytics"] == 'no'
+            ) {
+                analytics = false;
+            }
+        } catch (e) {}
+    
+        if (analytics) {
+            (function(i, s, o, g, r, a, m) {
+                i['GoogleAnalyticsObject'] = r;
+                i[r] = i[r] || function() {
+                    (i[r].q = i[r].q || []).push(arguments)
+                }, i[r].l = 1 * new Date();
+                a = s.createElement(o),
+                    m = s.getElementsByTagName(o)[0];
+                a.async = 1;
+                a.src = g;
+                m.parentNode.insertBefore(a, m)
+            })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+    
+            ga('create', 'UA-76634359-2', 'auto');
+            ga('send', 'pageview');
+        } else {
+            console.log('Google Analytics has been disabled');
+        }
+        </script>
+</body>
+
+</html>
