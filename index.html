@@ -69,6 +69,19 @@
                 </ul>
                </div>
             </nav>
+            <div id="date" class="container">Сьогодні <script language="javascript" type="text/javascript">
+                var d = new Date();
+            
+                var day=new Array("Неділя","Понеділок","Вівторок",
+                "Середа","Четвер","Пятниця","Субота");
+            
+                var month=new Array("січня","лютого","березня","квітня","травня","июня",
+                "июля","августа","сентября","октября","ноября","декабря");
+                
+                document.write(day[d.getDay()]+" " +d.getDate()+ " " + month[d.getMonth()]
+                + " " + d.getFullYear() + " р.");
+             </script>
+             </div>
         </header>
         <!-- Image fixed-->
         <div class='container shadow-lg p-3 mb-5 bg-secondary rounded' id='bl'>

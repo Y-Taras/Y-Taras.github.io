@@ -12,7 +12,16 @@ article, aside, details, figcaption, figure, footer, header, main, menu, nav, se
 p {
     font-size: 1.5em;
 }
-
+#date{
+  color: rgb(14, 29, 231);
+   text-align:right;
+   font-size: 40px;
+   position: fixed;
+   z-index: 999;
+   border: 2px;
+   padding-top: 80px; 
+   font-weight: bold;
+}
 #par-1, #par-2 {
     position: relative;
     top: 1rem
