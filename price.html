@@ -73,7 +73,20 @@
   
     <div class="container shadow-lg p-3 mb-5 bg-secondary rounded">
         <h3 style="color: rgb(223, 219, 35); text-align:center">Завжди можливий компроміс в цінах!</h3>
-        <h4 style="text-align:center">ЦІНИ Актуальні станом на 12 квітня 2019р</h4>
+        <h4 style="text-align:center">ЦІНИ Актуальні станом на  
+        <script language="javascript" type="text/javascript">
+            var d = new Date();
+           /*
+            var day=new Array("Неділя","Понеділок","Вівторок",
+            "Середа","Четвер","Пятниця","Субота");
+          */
+            var month=new Array("січня","лютого","березня","квітня","травня","июня",
+            "июля","августа","сентября","октября","ноября","декабря");
+            
+            document.write([d.getDate()]+ " " + month[d.getMonth()]
+            + " " + d.getFullYear() + " р.");
+         </script>
+            </h4>
       </div>
     <!-- table-->
     <div class="table container" id="main-table">
