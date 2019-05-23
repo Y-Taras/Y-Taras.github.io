@@ -51,7 +51,7 @@ p {
  background-color: #a7acb0;  
 }
 #bl-3{
-    position: sticky;
+    position: relative;
     top: 3.5rem;
     margin: 0 auto;
 	padding: 10px;
