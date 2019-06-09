@@ -116,6 +116,10 @@ nav {
 	margin: 0 auto;
 	background: rgb(77, 81, 119) !important;
   }
+  .navbar-light .navbar-brand{
+      color: rgb(190, 183, 183);
+     
+  }
   nav ul li a {
 	font-size: 22px;
 	color: rgba(246, 248, 245, 0.5) !important;
@@ -130,6 +134,16 @@ nav {
 }
   .navbar-right {
 	float: left !important;
+  }
+  .container .content {
+    position: absolute;
+    top: 2rem;
+    margin-right: 33em;
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.2); 
+    color:yellow;
+    width: 50%;
+    padding: 10px 20px;
   }
 @media (max-width: 575.98px) { 
 #tex h1,#tex p{
