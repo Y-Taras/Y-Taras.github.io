@@ -27,7 +27,7 @@
     <link rel='icon' type='image/png' href='favicon.ico' />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">         
     <link rel='stylesheet' href='./neu.css' />
-    
+
 </head>
 
 <body>
@@ -86,7 +86,7 @@
             document.write([d.getDate()]+ " " + month[d.getMonth()]
             + " " + d.getFullYear() + " р.");
          </script>
-        
+       
             </h4>
       </div>
     <!-- table-->
@@ -107,7 +107,7 @@
                 <tr>
                     <th>1</th>
                     <th scope="row">
-                        <img src="img/rys11.png" alt="parapet" class="img-thumbnail">
+                        <img src="img/rys11.png" height="150" onclick="changeSizeImage(this)" alt="parapet" class="img-thumbnail">
                         <h5><strong>Парапет <br>матеріал :крихта мармурова,<br> шліфована</strong></h5>
                     </th>
                     <td >
@@ -163,63 +163,6 @@
                 </tr>
                 <tr>
                     <th>2</th>
-                    <th scope="row">
-                        <img src="img/рис10.JPG" alt="" class="img-thumbnail">
-                        <h5><strong>Парапет:<br> бетон-моноліт<br>декоративний бетон</strong></h5>
-                    </th>
-                    <td >
-                        <table>
-                            <tr>
-                                <td>45см</td>
-                            </tr>
-                            <tr>
-                                <td>40см</td>
-                            </tr>
-                            <tr>
-                                <td>35см</td>
-                            </tr>
-                             <tr>
-                                <td>33см</td>
-                            </tr>
-                            <tr>
-                                <td>30см</td>
-                            </tr>
-                            <tr>
-                                <td>25см</td>
-                            </tr>
-                            <tr>
-                                <td>20см</td>
-                            </tr>
-                        </table>
-                    </td>
-                    <td >
-                        <table>
-                            <tr>
-                                <td>350грн</td>
-                            </tr>
-                            <tr>
-                                <td>300грн</td>
-                            </tr>
-                            <tr>
-                                <td>250грн</td>
-                            </tr>
-                            <tr>
-                                <td>230грн</td>
-                            </tr>
-                            <tr>
-                                <td>200грн</td>
-                            </tr>
-                            <tr>
-                                <td>180грн</td>
-                            </tr>
-                            <tr>
-                                <td>150грн</td>
-                            </tr>
-                        </table>
-                    </td>
-                </tr>
-                <tr>
-                    <th>3</th>
                     <th scope="row">
                         <img src="img/rys2.jpg" alt="" class="img-thumbnail">
                         <h5><strong>матеріал :крихта мармурова,<br>білий цемент<br> шліфована</strong></h5>
@@ -585,18 +528,10 @@
    </footer>
   
       <div id="foot1" class='container shadow-lg p-3 mb-6 bg-secondary rounded'>
-           <div class='row'>
-               <div class='col-md-6'>
-                   <p class='small'>
-                    Copyright &copy; 2017<script>new Date().getFullYear()>2017&&document.write("-"+new Date().getFullYear());</script>,  Розробник сайту &lt; "Y Studio" &gt; All rights reserved.
-                </p>
-               </div>
-               <div class='col-md-6'>
-                   <p class='small'>
-                       This site is developed and maintained by Vasyl Yaremkiv. All Rights Reserved.
-                   </p>
-               </div>
-           </div>
+        <div class='row footer__bottom'>
+            <div class='col-md-6'>Copyright © 2017-2019 СПД Яремків. Всі права захищено</div>
+            <div class='col-md-6'>Розробка та підтримка сайту <b>"Яремків - Студіо"</b></div>
+          </div>
        </div>
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
