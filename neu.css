@@ -9,6 +9,18 @@ body, html {
 article, aside, details, figcaption, figure, footer, header, main, menu, nav, section, summary {
     display: block;
 }
+.col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12 {
+    float: left;
+}
+.prod-item {
+    text-align: center;
+}
+.products-block .prod-item {
+    height: 290px;
+    padding: 35px 0 0;
+    position: relative;
+}
+
 p {
     font-size: 1.5em;
 }
@@ -84,10 +96,80 @@ li a.nav-link {
     background-color: #73818f59;
    
 }
+
+ 
+  /* Float four columns side by side */
+  .column {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+  }
+  
+  /* Remove extra left and right margins, due to padding */
+  .row {margin: 0 -5px;}
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .price {
+    color: rgb(204, 15, 31);
+    font-size: 22px;
+  }
+  
+  /* Responsive columns */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+  
+  /* Style the counter cards */
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(110, 73, 73, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+  }
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(95, 91, 91, 0.2);
+  }
+  /* Style the table */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+  }
+  .row {margin: 0 -5px;
+    background-color: #f1f1f1
+   }
+  /* Style table headers and table data */
+  th, td {
+    text-align: center;
+    padding: 16px;
+  }
+  
+  th:first-child, td:first-child {
+    text-align: left;
+  }
+
+/* Zebra-striped table rows */
+tr:nth-child(even) {
+    background-color: #f2f2f2
+  }
+  
+  /*
 .table .thead-light th {
     color: #401500;
     background-color: rgb(130, 130, 143);
     border-color: #792700;
+    text-align: center;
   }
 #main-table, #main-table-1{
     padding-top: 3.3em;
@@ -99,7 +181,15 @@ li a.nav-link {
     vertical-align: inherit;
     border-top: 3px solid #eceeef;
 	background-color: #9f9a9a;
-}
+}*/
+h1 {
+  font-family: 'Times New Roman', Times, serif; /* Гарнитура текста */ 
+  font-size: 250%; /* Размер шрифта в процентах */ 
+ } 
+ p {
+  font-family: Verdana, Arial, Helvetica, sans-serif; 
+  font-size: 14pt; /* Размер шрифта в пунктах */ 
+ }
 #foot{
     border: 1px solid white;
     text-align: center;
