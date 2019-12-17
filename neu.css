@@ -163,25 +163,6 @@ table {
 tr:nth-child(even) {
     background-color: #f2f2f2
   }
-  
-  /*
-.table .thead-light th {
-    color: #401500;
-    background-color: rgb(130, 130, 143);
-    border-color: #792700;
-    text-align: center;
-  }
-#main-table, #main-table-1{
-    padding-top: 3.3em;
-    background-color: #a7acb0;
-    text-align: center;
-}
-.table td, .table th {
-    padding: .75rem;
-    vertical-align: inherit;
-    border-top: 3px solid #eceeef;
-	background-color: #9f9a9a;
-}*/
 h1 {
   font-family: 'Times New Roman', Times, serif; /* Гарнитура текста */ 
   font-size: 250%; /* Размер шрифта в процентах */ 
