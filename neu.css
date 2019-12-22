@@ -112,8 +112,12 @@ li a.nav-link {
   #Date{
 margin-top: 110px
   }
-  #av{
+  .avatar{
     margin-top: 10px; 
+    text-align:center;
+    background-color: #656b7b;
+    font-size: 32px;
+    color: rgb(214, 160, 12);
   }
   /* Remove extra left and right margins, due to padding */
   .row {margin: 0 -5px;}
@@ -159,7 +163,8 @@ table {
     
 
   }
-  .row {margin: 0 -5px;
+  .row {
+    margin: 0 -5px;
     background-color: #656b7b;
    }
   /* Style table headers and table data */
@@ -178,7 +183,7 @@ tr:nth-child(even) {
   }
 h1 {
   font-family: 'Times New Roman', Times, serif; /* Гарнитура текста */ 
-  font-size: 250%; /* Размер шрифта в процентах */ 
+  
  } 
  p {
   font-family: Verdana, Arial, Helvetica, sans-serif; 
@@ -244,5 +249,8 @@ nav {
     margin-top: .5em;
     opacity: 1;
    font: 1.5em sans-serif;
+   }
+   h2 .avatar{
+    font-size: 8pt 
    }
  }

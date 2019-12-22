@@ -89,7 +89,7 @@
             </h4>
       </div>
     <div class="container">
-       <h2 style="text-align:center;background-color:  #656b7b">Парапети Двосхилі та Плоскі</h2>
+       <h2 class="avatar">Парапети Двосхилі та Плоскі</h2>
          <div class="row">
             <div class="col-sm-6">
                 <div class="card">
@@ -97,10 +97,9 @@
                   <h5><strong>матеріал :крихта мармурова, шліфована</strong></h5>         
                 </div>
             </div>
-
         <div class="col-sm-6">
                 <div class="card">      
-                <table class="table-striped table-sm">
+                <table class="thead-dark table-striped table-sm ">
                      <tr>
                          <th>Ширина</th>
                          <th>Ціна за 1м</th>
@@ -134,7 +133,7 @@
         </div>
     </div>
     <div class="container">
-            <h2  style="text-align:center; background-color: #656b7b">Парапет на паркан з білого цементу</h2>
+            <h2  class="avatar">Парапет на паркан з білого цементу</h2>
               <div class="row">
                  <div class="col-sm-6">
                      <div class="card">
@@ -179,7 +178,7 @@
              </div>
          </div>
     <div class="container">
-            <h2 style="text-align:center; background-color: #656b7b">Накриття стовпчика </h2>
+            <h2 class="avatar">Накриття стовпчика </h2>
               <div class="row" >
         <div class="column">
             <div class="card">
@@ -188,7 +187,7 @@
                     <h5><strong>ПІШАК новий</strong></h5>
                     <p>Матеріал-мармурова крихта,білий цемент</p>
                     <p>Розмір 45х45cm</p>
-                    <p class="price">Ціна650грн</p>
+                    <p class="price">650грн</p>
             </div>
         </div>
   
@@ -449,7 +448,50 @@
         console.log('Google Analytics has been disabled');
     }
     </script>
-
+<script type="text/javascript">
+    var imgsrc = "img/flake1.gif";
+    var height = document.body.scrollHeight;
+    if (height<document.body.clientHeight) height = document.body.clientHeight;
+    var width = document.body.scrollWidth;
+    var col = Math.round(height/25);    //количество снежинок
+    
+    var amp = new Array();
+    var x_pos = new Array();
+    var y_pos = new Array();
+    var stx = new Array();
+    var sty = new Array();
+    var deltax = new Array();
+    var obj = new Array();
+    
+    for (i=0; i<col; ++i) {
+     amp[i] = Math.random()*19;
+     x_pos[i] = Math.random()*(width-amp[i]-29);
+     y_pos[i] = Math.random()*height;
+     stx[i] = 0.03 + Math.random()*0.25;
+     sty[i] = 2 + Math.random();
+     deltax[i] = 0;
+    
+     document.write("<img id=\"sn"+ i +"\" style=\"position: absolute; " +
+     "z-index: 50; top: -50px; left: -50px;\" src='" + imgsrc + "'>");
+    
+     obj[i] = document.getElementById("sn" + i);
+    }
+    
+    function flake() {
+     for (i=0; i<col; ++i) {
+        y_pos[i] += sty[i];
+        if (y_pos[i]>height-49) {
+            x_pos[i] = Math.random()*(width-amp[i]-29);
+            y_pos[i] = 0;
+        }
+        deltax[i] += stx[i];
+        obj[i].style.top = y_pos[i] + "px";
+        obj[i].style.left = x_pos[i] + amp[i]*Math.sin(deltax[i]) + "px";
+     }
+    setTimeout("flake()", 60);
+    }
+    flake();
+    </script>
 </body>
 
 </html>
