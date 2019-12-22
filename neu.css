@@ -4,7 +4,8 @@ body, html {
     min-height: 100%;
     position: relative;
     background: url("img/spey2.jpg") 100% 100% repeat;
-    background-attachment: fixed;  
+    background-attachment: fixed;
+    overflow-x: hidden
 }
 article, aside, details, figcaption, figure, footer, header, main, menu, nav, section, summary {
     display: block;
@@ -96,15 +97,24 @@ li a.nav-link {
     background-color: #73818f59;
    
 }
-
- 
+.decor{
+  width:100%;
+}
+ .card:hover{
+  border: 3px solid rgb(32, 45, 233);
+  color: #0000d0;
+ }
   /* Float four columns side by side */
   .column {
-    float: left;
     width: 25%;
-    padding: 0 10px;
+    padding: 10px 
   }
-  
+  #Date{
+margin-top: 110px
+  }
+  #av{
+    margin-top: 10px; 
+  }
   /* Remove extra left and right margins, due to padding */
   .row {margin: 0 -5px;}
   
@@ -134,6 +144,7 @@ li a.nav-link {
     padding: 16px;
     text-align: center;
     background-color: #f1f1f1;
+  
   }
 
 .card:hover {
@@ -145,6 +156,8 @@ table {
     border-spacing: 0;
     width: 100%;
     border: 1px solid #ddd;
+    
+
   }
   .row {margin: 0 -5px;
     background-color: #656b7b;
