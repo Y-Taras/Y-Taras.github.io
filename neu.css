@@ -139,14 +139,21 @@ margin-top: 110px
       display: block;
       margin-bottom: 20px;
     }
+    .card {
+      box-shadow: 0 4px 8px 0 rgba(110, 73, 73, 0.2);
+      padding: 16px;
+      text-align: center;
+      background-color: #5f5a5a;;
+    
+    }
   }
   
   /* Style the counter cards */
   .card {
-    box-shadow: 0 4px 8px 0 rgba(110, 73, 73, 0.2);
+    box-shadow: 0 4px 8px 0 rgba(59, 47, 47, 0.2);
     padding: 16px;
     text-align: center;
-    background-color: #f1f1f1;
+    background-color: #808c93;
   
   }
 
