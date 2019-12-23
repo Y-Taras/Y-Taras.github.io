@@ -52,9 +52,8 @@ p {
     margin: auto;
 }
 #bl{
-    position: sticky;
-    top: 4rem;
-    margin: 0 auto;
+  
+    margin-top: 50px;
     padding: 10px;
     background-color: #a7acb0;
     z-index: 99;
@@ -112,7 +111,7 @@ li a.nav-link {
   #Date{
 margin-top: 110px
   }
-  .avatar{
+  h2 {
     margin-top: 10px; 
     text-align:center;
     background-color: #656b7b;
@@ -226,11 +225,6 @@ nav {
   ul{
 	margin-top: .5em; 
   }
-  .btn-outline-secondary:hover {
-    color: rgb(235, 8, 27) !important;
-    background-color: rgb(122, 171, 245);
-    border-color: rgb(131, 9, 9);
-}
   .navbar-right {
 	float: left !important;
   }
