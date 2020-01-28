@@ -154,7 +154,6 @@
               </div>
             </div>
         <!-- Tether -->
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
         
@@ -190,49 +189,6 @@
         }
         </script>
     
-    <script type="text/javascript">
-        var imgsrc = "img/flake2.gif";
-        var height = document.body.scrollHeight;
-        if (height<document.body.clientHeight) height = document.body.clientHeight;
-        var width = document.body.scrollWidth;
-        var col = Math.round(height/25);    //количество снежинок
-        
-        var amp = new Array();
-        var x_pos = new Array();
-        var y_pos = new Array();
-        var stx = new Array();
-        var sty = new Array();
-        var deltax = new Array();
-        var obj = new Array();
-        
-        for (i=0; i<col; ++i) {
-         amp[i] = Math.random()*19;
-         x_pos[i] = Math.random()*(width-amp[i]-29);
-         y_pos[i] = Math.random()*height;
-         stx[i] = 0.03 + Math.random()*0.25;
-         sty[i] = 2 + Math.random();
-         deltax[i] = 0;
-        
-         document.write("<img id=\"sn"+ i +"\" style=\"position: absolute; " +
-         "z-index: 50; top: -50px; left: -50px;\" src='" + imgsrc + "'>");
-        
-         obj[i] = document.getElementById("sn" + i);
-        }
-        
-        function flake() {
-         for (i=0; i<col; ++i) {
-            y_pos[i] += sty[i];
-            if (y_pos[i]>height-49) {
-                x_pos[i] = Math.random()*(width-amp[i]-29);
-                y_pos[i] = 0;
-            }
-            deltax[i] += stx[i];
-            obj[i].style.top = y_pos[i] + "px";
-            obj[i].style.left = x_pos[i] + amp[i]*Math.sin(deltax[i]) + "px";
-         }
-        setTimeout("flake()", 60);
-        }
-        flake();
-        </script>
+    
         </body>
 </html>

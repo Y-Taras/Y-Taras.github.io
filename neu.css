@@ -95,20 +95,19 @@ li a.nav-link {
     margin-top: 1em;
     z-index: -100;
 }
-.decor{
-  width:100%;
+.image{
+	float:left;
+	cursor:pointer;
+  max-width:300px;
+  z-index: 9999;
 }
- .card:hover{
-  border: 3px solid rgb(32, 45, 233);
-  color: #0000d0;
- }
-  /* Float four columns side by side */
+   /* Float four columns side by side */
   .column {
     width: 25%;
     padding: 10px 
   }
   #Date{
-margin-top: 110px
+    margin-top: 110px
   }
   .jumbotron {
     background-color: #96acc1;
@@ -121,9 +120,6 @@ margin-top: 110px
     font-size: 32px;
     color: rgb(214, 160, 12);
   }
-  /* Remove extra left and right margins, due to padding */
-  .row {margin: 0 -5px;}
-  
   /* Clear floats after the columns */
   .row:after {
     content: "";
@@ -134,7 +130,15 @@ margin-top: 110px
     color: rgb(204, 15, 31);
     font-size: 22px;
   }
-  
+  .clone {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .clone > img {
+    width: 100%;
+    height: 100%;
+  }
   /* Responsive columns */
   @media screen and (max-width: 600px) {
     .column {
@@ -155,6 +159,8 @@ margin-top: 110px
 
 .card:hover {
     box-shadow: 0 8px 16px 0 rgba(95, 91, 91, 0.2);
+    border: 3px solid rgb(32, 45, 233);
+    color: #0000d0;
   }
   /* Style the table */
 table {
