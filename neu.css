@@ -230,9 +230,9 @@ nav {
   }
   .navbar-light 
   .navbar-toggler {
-    color: rgba(0,0,0,.5);
+    color: rgba(207, 26, 26, 0.5);
     border-color: rgba(202, 28, 81, 0.85);
-    background-color: rgb(93, 129, 194);
+    background-color: rgb(242, 213, 53);
   }
   ul{
 	margin-top: .5em; 
