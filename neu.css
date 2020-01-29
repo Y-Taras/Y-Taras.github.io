@@ -99,7 +99,7 @@ li a.nav-link {
 	float:left;
 	cursor:pointer;
   max-width:250px;
-  z-index: 9999;
+  z-index: 99;
 }
    /* Float four columns side by side */
   .column {
