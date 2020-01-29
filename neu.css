@@ -98,7 +98,7 @@ li a.nav-link {
 .image{
 	float:left;
 	cursor:pointer;
-  max-width:300px;
+  max-width:250px;
   z-index: 9999;
 }
    /* Float four columns side by side */
@@ -154,7 +154,6 @@ li a.nav-link {
     padding: 16px;
     text-align: center;
     background-color: #808c93;
-    z-index: 1030;
   }
 
 .card:hover {
