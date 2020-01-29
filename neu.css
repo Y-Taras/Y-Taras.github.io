@@ -5,7 +5,7 @@ body, html {
     position: relative;
     background: url("img/spey2.jpg") 100% 100% repeat;
     background-attachment: fixed;
-    overflow-x: hidden
+    overflow-x: hidden;
 }
 article, aside, details, figcaption, figure, footer, header, main, menu, nav, section, summary {
     display: block;
@@ -227,6 +227,12 @@ nav {
     color: rgba(246, 248, 245, 0.5) !important;
     background-color: #6c757d !important;
     border-color: rgb(197, 172, 31) !important;
+  }
+  .navbar-light 
+  .navbar-toggler {
+    color: rgba(0,0,0,.5);
+    border-color: rgba(202, 28, 81, 0.85);
+    background-color: rgb(93, 129, 194);
   }
   ul{
 	margin-top: .5em; 
