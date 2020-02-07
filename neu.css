@@ -176,6 +176,7 @@ table {
   th, td {
     text-align: center;
     padding: 16px;
+    color: rgb(236, 221, 13);
   }
   
   th:first-child, td:first-child {
@@ -184,7 +185,7 @@ table {
 
 /* Zebra-striped table rows */
 tr:nth-child(even) {
-    background-color: #f2f2f2
+    background-color: #3b393927
   }
 h1 {
   font-family: 'Times New Roman', Times, serif;
@@ -228,7 +229,6 @@ nav {
     background-color: #6c757d !important;
     border-color: rgb(197, 172, 31) !important;
   }
-  .navbar-light 
   .navbar-toggler {
     color: rgba(207, 26, 26, 0.5);
     border-color: rgba(202, 28, 81, 0.85);
@@ -259,5 +259,6 @@ nav {
    h2 .avatar{
     font-size: 8pt 
    }
+   
  }
  
