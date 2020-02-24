@@ -6,7 +6,7 @@ body, html {
     background: url("img/spey2.jpg") 100% 100% repeat;
     background-attachment: fixed;
     overflow-x: hidden;
-    z-index:9;
+   
 }
 article, aside, details, figcaption, figure, footer, header, main, menu, nav, section, summary {
     display: block;
