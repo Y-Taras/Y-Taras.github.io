@@ -57,7 +57,7 @@ p {
     margin-top: 85px;
     padding: 10px;
     background-color: #a7acb0;
-    z-index: -5;
+    z-index: 99;
   }
  #bl-1,#par {
     position: relative;
