@@ -261,6 +261,10 @@ nav {
   .navbar-right {
 	float: left !important;
   }
+  .btn {
+    box-shadow: 5px 5px 0 RGB(121, 106, 95);
+    margin-left: 4px
+  }
   .container .content {
     position: absolute;
     top: 2rem;
