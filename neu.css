@@ -178,11 +178,11 @@ table {
   th, td {
     text-align: center;
     padding: 16px;
-    color: rgb(236, 221, 13);
+    color: rgb(255, 227, 0);;
   }
   
   th:first-child, td:first-child {
-    text-align: left;
+    text-align: center;
   }
 
 /* Zebra-striped table rows */
@@ -221,14 +221,19 @@ footer a{
     width: 30px;
     background: url("./favicon1.jpg") no-repeat;
 }
-
+.sticky-top{
+  position: relative;
+}
 nav {
   display: inline-flex;
   position: relative;
   overflow: hidden;
   max-width: 100%;
   margin: 0 auto;
-  background: rgb(77, 81, 119) !important;
+      margin-right: auto;
+      margin-left: auto;
+  background: 
+  rgb(77, 81, 119) !important;
   padding: 0 2px;
 }
 

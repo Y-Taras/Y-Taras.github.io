@@ -39,7 +39,11 @@
 
     </head>
     <body>
+            <div class='container shadow-lg p-3 mb-5 bg-secondary rounded ' id='bl'>
+                    <img src='img/parkan8.jpg' class='img-fluid m-x-auto' alt='Photo'>
+                </div>
         <header >
+          
             <nav class='container navbar navbar-expand-lg navbar-light navbar fixed-top'>
                 <a class="navbar-brand" href="https://www.parkan.trade">WebSite<br>Parkan<img src="favicon.ico" width="30" height="30" alt=""></a>
                     <button class="large navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -53,17 +57,17 @@
                     </li>
                     <li class='nav-item'>
                         <a class='btn btn-sm btn-outline-secondary ' href='./order.html'>Виконані замовлення</a>
-                    </li>
+                    </li> 
                     <li class='nav-item'>
                         <a class='btn btn-sm btn-outline-secondary' href='./products.html'>Парапети і шляпки</a>
                     </li>
-                    <li class='nav-item'>
+                    <li class='nav-item' >
                         <a class='btn btn-sm btn-outline-secondary' href='./bordiyr.html'>Бордюри квітники...</a>
                     </li>
                     <li class='nav-item'>
                         <a class='btn btn-sm btn-outline-secondary' href='./articles.html'>СТАТТІ</a>
                     </li>
-                    <li class='nav-item'>
+                    <li class='nav-item' >
                         <a class='btn btn-sm btn-outline-secondary' href='./wiki.html'>ТЕХНОЛОГІЇ</a>
                     </li>
                     <li class='nav-item'>
@@ -78,9 +82,7 @@
             </nav>
         </header>
         <!-- Image fixed-->
-        <div class='container shadow-lg p-3 mb-5 bg-secondary rounded ' id='bl'>
-            <img src='img/parkan8.jpg' class='img-fluid m-x-auto' alt='Photo'>
-        </div>
+       
         <!--end Image fixed-->
         <div class='container shadow-lg p-3 mb-5 bg-secondary rounded' id='tex'>
             <div style=" text-align: center; background-color: #96acc1;" class='jumbotron '>
@@ -198,7 +200,17 @@
             console.log('Google Analytics has been disabled');
         }
         </script>
-    
-    
+         <script>
+    $(function(){
+        $(window).scroll(function(){
+          var winTop = $(window).scrollTop();
+          if(winTop >= 30){
+            $("body").addClass("sticky-header");
+          }else{
+            $("body").removeClass("sticky-header");
+          }//if-else
+        });//win func.
+      });//ready func.
+    </script>
         </body>
 </html>
