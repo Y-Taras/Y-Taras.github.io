@@ -1,0 +1,61 @@
+.header {
+  border-bottom: 1px solid #e2e2e2;
+  background-color: $header-background;
+  position: sticky;
+  top: 0;
+  z-index: 9999;
+
+  &__brand {
+    display: inline-block;
+    padding: .3125rem 1rem .3125rem 0.2rem;
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
+    color: #ededf1;
+
+    @include hover-focus-active {
+      text-decoration: none;
+      background-color: lighten($header-background, 20%);
+      border-radius: 0.2rem;
+      color: #2e3047
+    }
+  }
+
+ 
+
+  &__link {
+    color: hsla(0, 0%, 100%, .7);
+    display: block;
+    padding: .5rem 0 .5rem 0.5rem;
+
+    @include hover-focus-active {
+      color: hsla(0, 0%, 100%, 1);
+      text-decoration: none;
+    }
+
+    @media (min-width: 992px) {
+      padding-right: 1rem;
+      padding-left: 1rem;
+    }
+  }
+
+  &__item {
+    @include hover-focus-active {
+      background-color: lighten($header-background, 20%);
+      border-radius: 0.2rem;
+    }
+  }
+
+  &__item--active {
+    border-top: 3px solid lightgray;
+    border-bottom: 2px solid lightgray;
+    margin-top: -3px;
+  }
+
+  @media screen and (max-width: 991px) {
+    &__item--active {
+      border-top-width: 1px;
+      margin-top: 0;
+    }
+  }
+}

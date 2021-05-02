@@ -1,0 +1,37 @@
+.footer {
+  color: #d1d2d3;
+  &__top {
+    padding-top: 7px;
+  }
+
+  &__top-items {
+    display: flex;
+    align-items: center;
+    border-right: 1px solid $gray-400;
+    &:last-child {
+      border: none;
+    }
+
+    @media (max-width: 768px){
+    border-right: 0;
+    border-bottom: 1px solid $gray-400;
+    }
+  }
+
+  &__top-email {
+    padding-inline-start: 40px;
+  }
+
+  &__top-address {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-inline-start: 40px;
+  }
+
+  &__bottom {
+    font-size: 0.8rem;
+    text-align: center;
+    padding: 4px 0;
+  }
+}

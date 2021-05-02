@@ -1,0 +1,24 @@
+.articles {
+  background-color: #343a40;
+  color: #ced4da;
+  font-size: 16px;
+  padding: 3rem 2rem;
+
+  @media (max-width: var(--breakpoint-sm)) {
+    & {
+      padding: 2rem 1rem;
+    }
+  }
+
+  &__heading {
+    text-align: center;
+    margin: 0.5rem 0;
+  }
+
+  &__picture {
+    display: block;
+    margin: 1.2rem auto;
+    max-width: 100%;
+    height: auto;
+  }
+}

@@ -1,0 +1,27 @@
+.price {
+  &-table {
+    // border: 1px solid #9496ad;
+  }
+
+  &-row {
+    // display: flex;
+     // flex-wrap: wrap;
+    // max-height: 290px;
+  }
+
+  &-description {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    @media (max-width: 576px)  {
+      align-items: center;
+    }
+  }
+
+  &-image {
+    max-width: 100%;
+    height: auto;
+    max-height: 290px;
+    border: 1px solid #d1d2d3;
+  }
+}
