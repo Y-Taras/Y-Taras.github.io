@@ -21,8 +21,7 @@
     }
   }
 
-  &__brand--text {
-  }
+ 
 
   &__link {
     color: hsla(0, 0%, 100%, .7);
@@ -48,8 +47,8 @@
   }
 
   &__item--active {
-    border-top: 3px solid lightgray;
-    border-bottom: 2px solid lightgray;
+    border-top: 3px solid #a5fc04;
+    border-bottom: 2px solid #a5fc04;
     margin-top: -3px;
   }
 
